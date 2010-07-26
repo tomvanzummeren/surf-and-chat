@@ -1,2 +1,0 @@
-- HTTP request open houden na streamen van een event naar de client
-- Of: CometD uitchecken
