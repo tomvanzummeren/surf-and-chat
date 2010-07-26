@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/projects/!svn/ver/658/msn-api/trunk/src/main/java/nl/tomvanzummeren/msnapi/messenger/json/events/messages
+END
+InstantMessageJson.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/projects/!svn/ver/658/msn-api/trunk/src/main/java/nl/tomvanzummeren/msnapi/messenger/json/events/messages/InstantMessageJson.java
+END
+UserIsTypingEventJson.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/projects/!svn/ver/658/msn-api/trunk/src/main/java/nl/tomvanzummeren/msnapi/messenger/json/events/messages/UserIsTypingEventJson.java
+END

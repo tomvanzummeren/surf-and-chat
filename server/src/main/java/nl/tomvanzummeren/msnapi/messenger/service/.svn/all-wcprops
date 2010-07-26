@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/projects/!svn/ver/658/msn-api/trunk/src/main/java/nl/tomvanzummeren/msnapi/messenger/service
+END
+UserSessionMsnMessageListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/projects/!svn/ver/658/msn-api/trunk/src/main/java/nl/tomvanzummeren/msnapi/messenger/service/UserSessionMsnMessageListener.java
+END
+UserSession.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/projects/!svn/ver/658/msn-api/trunk/src/main/java/nl/tomvanzummeren/msnapi/messenger/service/UserSession.java
+END
+UserSessionSwitchboardListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/projects/!svn/ver/658/msn-api/trunk/src/main/java/nl/tomvanzummeren/msnapi/messenger/service/UserSessionSwitchboardListener.java
+END
+UserSessionMsnMessengerListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/projects/!svn/ver/658/msn-api/trunk/src/main/java/nl/tomvanzummeren/msnapi/messenger/service/UserSessionMsnMessengerListener.java
+END
+AvatarStore.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/projects/!svn/ver/658/msn-api/trunk/src/main/java/nl/tomvanzummeren/msnapi/messenger/service/AvatarStore.java
+END
+UserSessionMsnContactListListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/projects/!svn/ver/658/msn-api/trunk/src/main/java/nl/tomvanzummeren/msnapi/messenger/service/UserSessionMsnContactListListener.java
+END
+MessengerService.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/projects/!svn/ver/658/msn-api/trunk/src/main/java/nl/tomvanzummeren/msnapi/messenger/service/MessengerService.java
+END

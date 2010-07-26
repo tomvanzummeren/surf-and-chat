@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/projects/!svn/ver/658/msn-api/trunk/src/main/java/nl/tomvanzummeren/msnapi/messenger/json/events/login
+END
+LoginFailedEventJson.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/projects/!svn/ver/658/msn-api/trunk/src/main/java/nl/tomvanzummeren/msnapi/messenger/json/events/login/LoginFailedEventJson.java
+END
+LoginSuccessEventJson.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/projects/!svn/ver/658/msn-api/trunk/src/main/java/nl/tomvanzummeren/msnapi/messenger/json/events/login/LoginSuccessEventJson.java
+END

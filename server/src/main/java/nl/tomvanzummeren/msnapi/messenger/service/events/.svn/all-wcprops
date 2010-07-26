@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/projects/!svn/ver/658/msn-api/trunk/src/main/java/nl/tomvanzummeren/msnapi/messenger/service/events
+END
+LoginSuccessEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/projects/!svn/ver/658/msn-api/trunk/src/main/java/nl/tomvanzummeren/msnapi/messenger/service/events/LoginSuccessEvent.java
+END
+UserIsTypingEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/projects/!svn/ver/658/msn-api/trunk/src/main/java/nl/tomvanzummeren/msnapi/messenger/service/events/UserIsTypingEvent.java
+END
+InstantMessageEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/projects/!svn/ver/658/msn-api/trunk/src/main/java/nl/tomvanzummeren/msnapi/messenger/service/events/InstantMessageEvent.java
+END
+LoginFailedEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/projects/!svn/ver/658/msn-api/trunk/src/main/java/nl/tomvanzummeren/msnapi/messenger/service/events/LoginFailedEvent.java
+END
+MsnEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/projects/!svn/ver/658/msn-api/trunk/src/main/java/nl/tomvanzummeren/msnapi/messenger/service/events/MsnEvent.java
+END

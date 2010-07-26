@@ -1,0 +1,38 @@
+package nl.tomvanzummeren.msnapi;
+
+import net.sf.jml.MsnMessenger;
+import net.sf.jml.MsnProtocol;
+import net.sf.jml.MsnUserStatus;
+import net.sf.jml.event.MsnAdapter;
+import net.sf.jml.impl.MsnMessengerFactory;
+
+/**
+ * @author Tom van Zummeren
+ */
+public class MessengerTest {
+
+    public static void main(String[] arguments) {
+        MsnMessenger messenger = MsnMessengerFactory.createMsnMessenger("surfandchat@hotmail.com", "sU3F4nDcH4t");
+        messenger.setSupportedProtocol(new MsnProtocol[] {MsnProtocol.MSNP15});
+        messenger.getOwner().setInitStatus(MsnUserStatus.ONLINE);
+        messenger.setLogIncoming(true);
+        messenger.setLogOutgoing(true);
+        messenger.addListener(new MsnAdapter() {
+            @Override
+            public void loginCompleted(MsnMessenger messenger) {
+                System.err.println("1. login completed");
+            }
+
+            @Override
+            public void contactListSyncCompleted(MsnMessenger messenger) {
+                System.err.println("2. contact list sync completed");
+            }
+
+            @Override
+            public void contactListInitCompleted(MsnMessenger messenger) {
+                System.err.println("3. contact list fully initialized");
+            }
+        });
+        messenger.login();
+    }
+}

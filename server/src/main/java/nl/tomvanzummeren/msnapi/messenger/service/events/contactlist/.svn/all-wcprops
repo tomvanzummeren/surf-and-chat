@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/projects/!svn/ver/658/msn-api/trunk/src/main/java/nl/tomvanzummeren/msnapi/messenger/service/events/contactlist
+END
+AvatarReceivedEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/projects/!svn/ver/658/msn-api/trunk/src/main/java/nl/tomvanzummeren/msnapi/messenger/service/events/contactlist/AvatarReceivedEvent.java
+END
+ContactUpdatedEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/projects/!svn/ver/658/msn-api/trunk/src/main/java/nl/tomvanzummeren/msnapi/messenger/service/events/contactlist/ContactUpdatedEvent.java
+END
+ContactListEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/projects/!svn/ver/658/msn-api/trunk/src/main/java/nl/tomvanzummeren/msnapi/messenger/service/events/contactlist/ContactListEvent.java
+END
