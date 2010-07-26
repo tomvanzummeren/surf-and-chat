@@ -1,0 +1,3 @@
+@interface UINavigationBar (CustomBackground)
+
+@end

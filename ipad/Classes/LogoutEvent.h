@@ -1,0 +1,6 @@
+
+@interface LogoutEvent : NSObject {
+
+}
+
+@end

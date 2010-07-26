@@ -1,0 +1,5 @@
+@interface LoginSuccessEvent : NSObject {
+
+}
+
+@end

@@ -1,0 +1,5 @@
+@interface LoginFailedEvent : NSObject {
+
+}
+
+@end
