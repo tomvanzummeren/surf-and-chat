@@ -90,6 +90,8 @@
 		DB9830D711A7F89B005C0C18 /* ChatDialogModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9830D611A7F89B005C0C18 /* ChatDialogModel.m */; };
 		DB9833EE11A937BD005C0C18 /* ConversationListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9833ED11A937BD005C0C18 /* ConversationListModel.m */; };
 		DB9834D211A986D4005C0C18 /* new-messages-count-balloon.png in Resources */ = {isa = PBXBuildFile; fileRef = DB9834D111A986D4005C0C18 /* new-messages-count-balloon.png */; };
+		DB9F58E811FF8AD000DEE61A /* WebBrowserController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9F58E611FF8AD000DEE61A /* WebBrowserController.m */; };
+		DB9F58E911FF8AD000DEE61A /* WebBrowserController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB9F58E711FF8AD000DEE61A /* WebBrowserController.xib */; };
 		DBA3D7EA1152B4CB00B27408 /* ProfileController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA3D7E81152B4CB00B27408 /* ProfileController.m */; };
 		DBA3D7EB1152B4CB00B27408 /* ProfileController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBA3D7E91152B4CB00B27408 /* ProfileController.xib */; };
 		DBA8686C11725679001F242E /* selected-conversation-left.png in Resources */ = {isa = PBXBuildFile; fileRef = DBA8686B11725679001F242E /* selected-conversation-left.png */; };
@@ -238,6 +240,9 @@
 		DB9833EC11A937BD005C0C18 /* ConversationListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConversationListModel.h; sourceTree = "<group>"; };
 		DB9833ED11A937BD005C0C18 /* ConversationListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConversationListModel.m; sourceTree = "<group>"; };
 		DB9834D111A986D4005C0C18 /* new-messages-count-balloon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "new-messages-count-balloon.png"; sourceTree = "<group>"; };
+		DB9F58E511FF8AD000DEE61A /* WebBrowserController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebBrowserController.h; sourceTree = "<group>"; };
+		DB9F58E611FF8AD000DEE61A /* WebBrowserController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebBrowserController.m; sourceTree = "<group>"; };
+		DB9F58E711FF8AD000DEE61A /* WebBrowserController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WebBrowserController.xib; sourceTree = "<group>"; };
 		DBA3D7E71152B4CB00B27408 /* ProfileController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileController.h; sourceTree = "<group>"; };
 		DBA3D7E81152B4CB00B27408 /* ProfileController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileController.m; sourceTree = "<group>"; };
 		DBA3D7E91152B4CB00B27408 /* ProfileController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileController.xib; sourceTree = "<group>"; };
@@ -654,6 +659,9 @@
 				DB1A135111517C51009D2B7A /* WebPageCell.h */,
 				DB1A135211517C51009D2B7A /* WebPageCell.m */,
 				DB1A135C11517D9C009D2B7A /* WebPageCell.xib */,
+				DB9F58E511FF8AD000DEE61A /* WebBrowserController.h */,
+				DB9F58E611FF8AD000DEE61A /* WebBrowserController.m */,
+				DB9F58E711FF8AD000DEE61A /* WebBrowserController.xib */,
 			);
 			name = "Web Page List";
 			sourceTree = "<group>";
@@ -777,6 +785,7 @@
 				DB0E9FE31174F7C00004333A /* webpages-bg.jpg in Resources */,
 				DB9834D211A986D4005C0C18 /* new-messages-count-balloon.png in Resources */,
 				DBDA4D4F11FC9A4300EC0805 /* Icon.png in Resources */,
+				DB9F58E911FF8AD000DEE61A /* WebBrowserController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -833,6 +842,7 @@
 				DB9830D711A7F89B005C0C18 /* ChatDialogModel.m in Sources */,
 				DB9833EE11A937BD005C0C18 /* ConversationListModel.m in Sources */,
 				DBDA4CED11FC852F00EC0805 /* LogoutEvent.m in Sources */,
+				DB9F58E811FF8AD000DEE61A /* WebBrowserController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

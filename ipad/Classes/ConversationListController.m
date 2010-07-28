@@ -7,6 +7,7 @@
 #import "ConversationCell.h"
 #import "ConversationListModel.h"
 #import "ReceivedMessage.h"
+#import "NibUtils.h"
 
 @interface ConversationListController()
 - (void) activateChatDialog:(UIViewController *) chatDialogController;
@@ -185,6 +186,7 @@
 
 - (void) activateChatDialog:(UIViewController *) chatDialogController {
 	NSArray *viewControllers = [splitViewController viewControllers];
+	// TODO - Tom: Set ContentContainerController directly from XIB?
 	ContentContainerController *contentContainerController = [viewControllers objectAtIndex:1];
 	[contentContainerController setContentController:chatDialogController];
 }
