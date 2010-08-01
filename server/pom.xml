@@ -3,14 +3,14 @@
 
     <parent>
         <groupId>nl.tomvanzummeren</groupId>
-        <artifactId>msn-api-parent</artifactId>
+        <artifactId>surf-and-chat</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>nl.tomvanzummeren</groupId>
-    <artifactId>msn-api</artifactId>
+    <artifactId>surf-and-chat-server</artifactId>
     <packaging>war</packaging>
     <version>1.0-SNAPSHOT</version>
 
