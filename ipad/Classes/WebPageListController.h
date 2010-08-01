@@ -1,6 +1,8 @@
 @class ContentContainerController;
 
-@interface WebPageListController : UITableViewController {
+#import "WebBrowserDelegate.h"
+
+@interface WebPageListController : UITableViewController<WebBrowserDelegate> {
 
 	IBOutlet ContentContainerController *contentContainerController;
 

@@ -63,11 +63,27 @@
 
 - (IBAction) addWebBrowser {
 	WebBrowserController *webBrowser = [[[WebBrowserController alloc] init] autorelease];
+	[webBrowser setDelegate:self];
 	[webBrowsers addObject:webBrowser];
 	
 	NSIndexPath *indexPath = [NSIndexPath indexPathForRow:[webBrowsers count] - 1 inSection:0];
 	[[self tableView] insertRowsAtIndexPaths:[NSArray arrayWithObject:indexPath] withRowAnimation:UITableViewRowAnimationRight];
+	
+	// Select the new row
 	[[self tableView] selectRowAtIndexPath:indexPath animated:YES scrollPosition:UITableViewScrollPositionBottom];
+	// Also actually perform the selected row action on top of visually selecting the new row
+	[self tableView:[self tableView] didSelectRowAtIndexPath:indexPath];
+}
+
+- (void) pageUrlChanged:(WebBrowserController *) webBrowser {
+	int row = [webBrowsers indexOfObject:webBrowser];
+	if (row == -1) {
+		NSLog(@"ERROR: Changed page URL, but controller not found in list");
+		return;
+	}
+	
+	NSIndexPath *indexPath = [NSIndexPath indexPathForRow:row inSection:0];
+	[[self tableView] reloadRowsAtIndexPaths:[NSArray arrayWithObject:indexPath] withRowAnimation:UITableViewRowAnimationNone];
 }
 
 #pragma mark -

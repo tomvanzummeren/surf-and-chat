@@ -84,8 +84,8 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 301961526;
-			PBXWorkspaceStateSaveDate = 301961526;
+			PBXPerProjectTemplateStateSaveDate = 302076044;
+			PBXWorkspaceStateSaveDate = 302076044;
 		};
 		perUserProjectItems = {
 			DB0E9E42117382D90004333A = DB0E9E42117382D90004333A /* PBXTextBookmark */;
@@ -111,6 +111,43 @@
 			DB0EC69C113B13E300C34C48 = DB0EC69C113B13E300C34C48 /* PBXTextBookmark */;
 			DB1A12161150243A009D2B7A = DB1A12161150243A009D2B7A /* PBXTextBookmark */;
 			DB1A13F711518DBB009D2B7A = DB1A13F711518DBB009D2B7A /* PBXTextBookmark */;
+			DB21203C12057E58001CD921 /* XCBuildMessageTextBookmark */ = DB21203C12057E58001CD921 /* XCBuildMessageTextBookmark */;
+			DB21203D12057E58001CD921 /* PBXTextBookmark */ = DB21203D12057E58001CD921 /* PBXTextBookmark */;
+			DB2120871205832D001CD921 /* PBXTextBookmark */ = DB2120871205832D001CD921 /* PBXTextBookmark */;
+			DB21208A1205832E001CD921 /* PBXTextBookmark */ = DB21208A1205832E001CD921 /* PBXTextBookmark */;
+			DB21208C1205832E001CD921 /* PBXTextBookmark */ = DB21208C1205832E001CD921 /* PBXTextBookmark */;
+			DB21208E1205832E001CD921 /* PBXTextBookmark */ = DB21208E1205832E001CD921 /* PBXTextBookmark */;
+			DB2120901205832E001CD921 /* PBXTextBookmark */ = DB2120901205832E001CD921 /* PBXTextBookmark */;
+			DB2120911205832E001CD921 /* PBXTextBookmark */ = DB2120911205832E001CD921 /* PBXTextBookmark */;
+			DB2120921205832E001CD921 /* PBXTextBookmark */ = DB2120921205832E001CD921 /* PBXTextBookmark */;
+			DB2120931205832E001CD921 /* PBXTextBookmark */ = DB2120931205832E001CD921 /* PBXTextBookmark */;
+			DB2120941205832E001CD921 /* PBXTextBookmark */ = DB2120941205832E001CD921 /* PBXTextBookmark */;
+			DB2120961205832E001CD921 /* PBXTextBookmark */ = DB2120961205832E001CD921 /* PBXTextBookmark */;
+			DB2120971205832E001CD921 /* PBXTextBookmark */ = DB2120971205832E001CD921 /* PBXTextBookmark */;
+			DB21209D1205833B001CD921 /* PBXTextBookmark */ = DB21209D1205833B001CD921 /* PBXTextBookmark */;
+			DB2120A012058340001CD921 /* PBXTextBookmark */ = DB2120A012058340001CD921 /* PBXTextBookmark */;
+			DB2120A612058388001CD921 /* PBXTextBookmark */ = DB2120A612058388001CD921 /* PBXTextBookmark */;
+			DB2120A712058388001CD921 /* PBXTextBookmark */ = DB2120A712058388001CD921 /* PBXTextBookmark */;
+			DB2120A812058388001CD921 /* PBXTextBookmark */ = DB2120A812058388001CD921 /* PBXTextBookmark */;
+			DB2120A912058388001CD921 /* PBXTextBookmark */ = DB2120A912058388001CD921 /* PBXTextBookmark */;
+			DB2120B21205D392001CD921 /* PBXTextBookmark */ = DB2120B21205D392001CD921 /* PBXTextBookmark */;
+			DB2120B51205D39E001CD921 /* PBXTextBookmark */ = DB2120B51205D39E001CD921 /* PBXTextBookmark */;
+			DB2120BC1205D7BE001CD921 /* PBXTextBookmark */ = DB2120BC1205D7BE001CD921 /* PBXTextBookmark */;
+			DB2120BD1205D7C1001CD921 /* PBXTextBookmark */ = DB2120BD1205D7C1001CD921 /* PBXTextBookmark */;
+			DB2120BE1205D7C1001CD921 /* PBXTextBookmark */ = DB2120BE1205D7C1001CD921 /* PBXTextBookmark */;
+			DB2120C71205D915001CD921 /* PBXTextBookmark */ = DB2120C71205D915001CD921 /* PBXTextBookmark */;
+			DB2120DA1205E0EC001CD921 /* PBXTextBookmark */ = DB2120DA1205E0EC001CD921 /* PBXTextBookmark */;
+			DB2120DB1205E0EC001CD921 /* PBXBookmark */ = DB2120DB1205E0EC001CD921 /* PBXBookmark */;
+			DB2120DC1205E0EC001CD921 /* PBXTextBookmark */ = DB2120DC1205E0EC001CD921 /* PBXTextBookmark */;
+			DB2120DF1205E132001CD921 /* PBXTextBookmark */ = DB2120DF1205E132001CD921 /* PBXTextBookmark */;
+			DB2120E01205E132001CD921 /* PBXTextBookmark */ = DB2120E01205E132001CD921 /* PBXTextBookmark */;
+			DB2120E51205E16C001CD921 /* PBXTextBookmark */ = DB2120E51205E16C001CD921 /* PBXTextBookmark */;
+			DB2120E81205E173001CD921 /* PBXTextBookmark */ = DB2120E81205E173001CD921 /* PBXTextBookmark */;
+			DB2120EB1205E18C001CD921 /* PBXTextBookmark */ = DB2120EB1205E18C001CD921 /* PBXTextBookmark */;
+			DB2120EE1205E1CC001CD921 /* PBXTextBookmark */ = DB2120EE1205E1CC001CD921 /* PBXTextBookmark */;
+			DB2120EF1205E1F0001CD921 /* PBXTextBookmark */ = DB2120EF1205E1F0001CD921 /* PBXTextBookmark */;
+			DB2120F01205E1F0001CD921 /* PBXTextBookmark */ = DB2120F01205E1F0001CD921 /* PBXTextBookmark */;
+			DB2120F31205E1F9001CD921 /* PBXTextBookmark */ = DB2120F31205E1F9001CD921 /* PBXTextBookmark */;
 			DB3AF8EF11FB0C4300D11412 = DB3AF8EF11FB0C4300D11412 /* PBXTextBookmark */;
 			DB3AF90411FB31CD00D11412 = DB3AF90411FB31CD00D11412 /* PBXTextBookmark */;
 			DB3DB6E9117CDF9F00F71F6E = DB3DB6E9117CDF9F00F71F6E /* PBXTextBookmark */;
@@ -637,6 +674,400 @@
 		rLoc = 243;
 		rType = 0;
 		vrLen = 279;
+		vrLoc = 0;
+	};
+	DB21203412057E08001CD921 /* WebBrowserDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1094, 479}}";
+			sepNavSelRange = "{70, 0}";
+			sepNavVisRange = "{0, 137}";
+		};
+	};
+	DB21203C12057E58001CD921 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Expected ')' before 'WebBrowserController'";
+		fRef = DB21203412057E08001CD921 /* WebBrowserDelegate.h */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 0;
+		rLoc = 1;
+		rType = 1;
+	};
+	DB21203D12057E58001CD921 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DB21203412057E08001CD921 /* WebBrowserDelegate.h */;
+		name = "WebBrowserDelegate.h: 4";
+		rLen = 0;
+		rLoc = 70;
+		rType = 0;
+		vrLen = 107;
+		vrLoc = 0;
+	};
+	DB2120871205832D001CD921 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DB21203412057E08001CD921 /* WebBrowserDelegate.h */;
+		name = "WebBrowserDelegate.h: 6";
+		rLen = 0;
+		rLoc = 70;
+		rType = 0;
+		vrLen = 137;
+		vrLoc = 0;
+	};
+	DB21208A1205832E001CD921 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DB21208B1205832E001CD921 /* UIWebView.h */;
+		name = "UIWebView.h: 37";
+		rLen = 12;
+		rLoc = 1070;
+		rType = 0;
+		vrLen = 2094;
+		vrLoc = 0;
+	};
+	DB21208B1205832E001CD921 /* UIWebView.h */ = {
+		isa = PBXFileReference;
+		name = UIWebView.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIWebView.h;
+		sourceTree = "<absolute>";
+	};
+	DB21208C1205832E001CD921 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DB21208D1205832E001CD921 /* NSURLRequest.h */;
+		name = "NSURLRequest.h: 209";
+		rLen = 5;
+		rLoc = 8375;
+		rType = 0;
+		vrLen = 2514;
+		vrLoc = 7141;
+	};
+	DB21208D1205832E001CD921 /* NSURLRequest.h */ = {
+		isa = PBXFileReference;
+		name = NSURLRequest.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSURLRequest.h;
+		sourceTree = "<absolute>";
+	};
+	DB21208E1205832E001CD921 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DB21208F1205832E001CD921 /* NSURL.h */;
+		name = "NSURL.h: 45";
+		rLen = 86;
+		rLoc = 1919;
+		rType = 0;
+		vrLen = 3028;
+		vrLoc = 0;
+	};
+	DB21208F1205832E001CD921 /* NSURL.h */ = {
+		isa = PBXFileReference;
+		name = NSURL.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSURL.h;
+		sourceTree = "<absolute>";
+	};
+	DB2120901205832E001CD921 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DBBB8859113AE99400D1354F /* WebPageListController.h */;
+		name = "WebPageListController.h: 3";
+		rLen = 0;
+		rLoc = 66;
+		rType = 0;
+		vrLen = 291;
+		vrLoc = 0;
+	};
+	DB2120911205832E001CD921 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DBBB885A113AE99400D1354F /* WebPageListController.m */;
+		name = "WebPageListController.m: 66";
+		rLen = 0;
+		rLoc = 1987;
+		rType = 0;
+		vrLen = 2259;
+		vrLoc = 816;
+	};
+	DB2120921205832E001CD921 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DB21203412057E08001CD921 /* WebBrowserDelegate.h */;
+		name = "WebBrowserDelegate.h: 2";
+		rLen = 0;
+		rLoc = 29;
+		rType = 0;
+		vrLen = 137;
+		vrLoc = 0;
+	};
+	DB2120931205832E001CD921 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DB9F58E511FF8AD000DEE61A /* WebBrowserController.h */;
+		name = "WebBrowserController.h: 19";
+		rLen = 0;
+		rLoc = 455;
+		rType = 0;
+		vrLen = 482;
+		vrLoc = 0;
+	};
+	DB2120941205832E001CD921 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DB2120951205832E001CD921 /* UITextField.h */;
+		name = "UITextField.h: 120";
+		rLen = 92;
+		rLoc = 3842;
+		rType = 0;
+		vrLen = 3516;
+		vrLoc = 2436;
+	};
+	DB2120951205832E001CD921 /* UITextField.h */ = {
+		isa = PBXFileReference;
+		name = UITextField.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITextField.h;
+		sourceTree = "<absolute>";
+	};
+	DB2120961205832E001CD921 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DB9F58E611FF8AD000DEE61A /* WebBrowserController.m */;
+		name = "WebBrowserController.m: 42";
+		rLen = 0;
+		rLoc = 976;
+		rType = 0;
+		vrLen = 1416;
+		vrLoc = 0;
+	};
+	DB2120971205832E001CD921 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DB9F58E611FF8AD000DEE61A /* WebBrowserController.m */;
+		name = "WebBrowserController.m: 78";
+		rLen = 0;
+		rLoc = 2080;
+		rType = 0;
+		vrLen = 1916;
+		vrLoc = 522;
+	};
+	DB21209D1205833B001CD921 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DB21203412057E08001CD921 /* WebBrowserDelegate.h */;
+		name = "WebBrowserDelegate.h: 6";
+		rLen = 0;
+		rLoc = 70;
+		rType = 0;
+		vrLen = 137;
+		vrLoc = 0;
+	};
+	DB2120A012058340001CD921 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DB9F58E611FF8AD000DEE61A /* WebBrowserController.m */;
+		name = "WebBrowserController.m: 78";
+		rLen = 0;
+		rLoc = 2086;
+		rType = 0;
+		vrLen = 1921;
+		vrLoc = 522;
+	};
+	DB2120A612058388001CD921 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DBBB885A113AE99400D1354F /* WebPageListController.m */;
+		name = "WebPageListController.m: 66";
+		rLen = 0;
+		rLoc = 1987;
+		rType = 0;
+		vrLen = 2303;
+		vrLoc = 357;
+	};
+	DB2120A712058388001CD921 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DB9F58E511FF8AD000DEE61A /* WebBrowserController.h */;
+		name = "WebBrowserController.h: 19";
+		rLen = 0;
+		rLoc = 455;
+		rType = 0;
+		vrLen = 482;
+		vrLoc = 0;
+	};
+	DB2120A812058388001CD921 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DB9F58E611FF8AD000DEE61A /* WebBrowserController.m */;
+		name = "WebBrowserController.m: 78";
+		rLen = 0;
+		rLoc = 2086;
+		rType = 0;
+		vrLen = 1921;
+		vrLoc = 522;
+	};
+	DB2120A912058388001CD921 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DB9F58E611FF8AD000DEE61A /* WebBrowserController.m */;
+		name = "WebBrowserController.m: 32";
+		rLen = 0;
+		rLoc = 692;
+		rType = 0;
+		vrLen = 1798;
+		vrLoc = 304;
+	};
+	DB2120B21205D392001CD921 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DB9F58E611FF8AD000DEE61A /* WebBrowserController.m */;
+		name = "WebBrowserController.m: 61";
+		rLen = 0;
+		rLoc = 1559;
+		rType = 0;
+		vrLen = 1821;
+		vrLoc = 321;
+	};
+	DB2120B51205D39E001CD921 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DB9F58E611FF8AD000DEE61A /* WebBrowserController.m */;
+		name = "WebBrowserController.m: 59";
+		rLen = 0;
+		rLoc = 1559;
+		rType = 0;
+		vrLen = 1799;
+		vrLoc = 321;
+	};
+	DB2120BC1205D7BE001CD921 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DB21203412057E08001CD921 /* WebBrowserDelegate.h */;
+		name = "WebBrowserDelegate.h: 6";
+		rLen = 0;
+		rLoc = 70;
+		rType = 0;
+		vrLen = 137;
+		vrLoc = 0;
+	};
+	DB2120BD1205D7C1001CD921 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DB9F58E611FF8AD000DEE61A /* WebBrowserController.m */;
+		name = "WebBrowserController.m: 59";
+		rLen = 0;
+		rLoc = 1559;
+		rType = 0;
+		vrLen = 1799;
+		vrLoc = 321;
+	};
+	DB2120BE1205D7C1001CD921 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DB9F58E611FF8AD000DEE61A /* WebBrowserController.m */;
+		name = "WebBrowserController.m: 40";
+		rLen = 0;
+		rLoc = 851;
+		rType = 0;
+		vrLen = 1799;
+		vrLoc = 321;
+	};
+	DB2120C71205D915001CD921 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DB9F58E611FF8AD000DEE61A /* WebBrowserController.m */;
+		name = "WebBrowserController.m: 25";
+		rLen = 0;
+		rLoc = 429;
+		rType = 0;
+		vrLen = 1546;
+		vrLoc = 0;
+	};
+	DB2120DA1205E0EC001CD921 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DB9F58E611FF8AD000DEE61A /* WebBrowserController.m */;
+		name = "WebBrowserController.m: 22";
+		rLen = 0;
+		rLoc = 345;
+		rType = 0;
+		vrLen = 1593;
+		vrLoc = 69;
+	};
+	DB2120DB1205E0EC001CD921 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = DB2120CA1205DA4B001CD921 /* refresh.png */;
+	};
+	DB2120DC1205E0EC001CD921 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DB9F58E511FF8AD000DEE61A /* WebBrowserController.h */;
+		name = "WebBrowserController.h: 15";
+		rLen = 0;
+		rLoc = 324;
+		rType = 0;
+		vrLen = 553;
+		vrLoc = 0;
+	};
+	DB2120DF1205E132001CD921 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DB9F58E511FF8AD000DEE61A /* WebBrowserController.h */;
+		name = "WebBrowserController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 553;
+		vrLoc = 0;
+	};
+	DB2120E01205E132001CD921 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DB9F58E611FF8AD000DEE61A /* WebBrowserController.m */;
+		name = "WebBrowserController.m: 62";
+		rLen = 0;
+		rLoc = 1523;
+		rType = 0;
+		vrLen = 1899;
+		vrLoc = 772;
+	};
+	DB2120E51205E16C001CD921 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DB9F58E611FF8AD000DEE61A /* WebBrowserController.m */;
+		name = "WebBrowserController.m: 73";
+		rLen = 0;
+		rLoc = 1710;
+		rType = 0;
+		vrLen = 1930;
+		vrLoc = 772;
+	};
+	DB2120E81205E173001CD921 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DB9F58E611FF8AD000DEE61A /* WebBrowserController.m */;
+		name = "WebBrowserController.m: 73";
+		rLen = 0;
+		rLoc = 1710;
+		rType = 0;
+		vrLen = 1931;
+		vrLoc = 772;
+	};
+	DB2120EB1205E18C001CD921 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DB9F58E611FF8AD000DEE61A /* WebBrowserController.m */;
+		name = "WebBrowserController.m: 64";
+		rLen = 0;
+		rLoc = 1559;
+		rType = 0;
+		vrLen = 1931;
+		vrLoc = 772;
+	};
+	DB2120EE1205E1CC001CD921 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DB9F58E611FF8AD000DEE61A /* WebBrowserController.m */;
+		name = "WebBrowserController.m: 67";
+		rLen = 0;
+		rLoc = 1562;
+		rType = 0;
+		vrLen = 1933;
+		vrLoc = 772;
+	};
+	DB2120EF1205E1F0001CD921 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DB9F58E611FF8AD000DEE61A /* WebBrowserController.m */;
+		name = "WebBrowserController.m: 66";
+		rLen = 0;
+		rLoc = 1562;
+		rType = 0;
+		vrLen = 1903;
+		vrLoc = 697;
+	};
+	DB2120F01205E1F0001CD921 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DB9F58E511FF8AD000DEE61A /* WebBrowserController.h */;
+		name = "WebBrowserController.h: 27";
+		rLen = 0;
+		rLoc = 516;
+		rType = 0;
+		vrLen = 523;
+		vrLoc = 0;
+	};
+	DB2120F31205E1F9001CD921 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DB9F58E511FF8AD000DEE61A /* WebBrowserController.h */;
+		name = "WebBrowserController.h: 27";
+		rLen = 0;
+		rLoc = 516;
+		rType = 0;
+		vrLen = 523;
 		vrLoc = 0;
 	};
 	DB3AF8EF11FB0C4300D11412 /* PBXTextBookmark */ = {
@@ -1403,16 +1834,16 @@
 	};
 	DB9F58E511FF8AD000DEE61A /* WebBrowserController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {2086, 1038}}";
-			sepNavSelRange = "{83, 0}";
-			sepNavVisRange = "{0, 115}";
+			sepNavIntBoundsRect = "{{0, 0}, {2086, 1011}}";
+			sepNavSelRange = "{516, 0}";
+			sepNavVisRange = "{0, 523}";
 		};
 	};
 	DB9F58E611FF8AD000DEE61A /* WebBrowserController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {2086, 1038}}";
-			sepNavSelRange = "{506, 0}";
-			sepNavVisRange = "{0, 513}";
+			sepNavIntBoundsRect = "{{0, 0}, {2086, 1632}}";
+			sepNavSelRange = "{1562, 0}";
+			sepNavVisRange = "{697, 1903}";
 		};
 	};
 	DB9F58FF11FF8EB300DEE61A /* PlistBookmark */ = {
@@ -1451,7 +1882,7 @@
 		fRef = DB9F58E511FF8AD000DEE61A /* WebBrowserController.h */;
 		name = "WebBrowserController.h: 6";
 		rLen = 0;
-		rLoc = 83;
+		rLoc = 491;
 		rType = 0;
 		vrLen = 115;
 		vrLoc = 0;
@@ -1481,7 +1912,7 @@
 		fRef = DB9F58E611FF8AD000DEE61A /* WebBrowserController.m */;
 		name = "WebBrowserController.m: 30";
 		rLen = 0;
-		rLoc = 506;
+		rLoc = 2593;
 		rType = 0;
 		vrLen = 513;
 		vrLoc = 0;
@@ -1511,7 +1942,7 @@
 		fRef = DBBB8859113AE99400D1354F /* WebPageListController.h */;
 		name = "WebPageListController.h: 11";
 		rLen = 26;
-		rLoc = 205;
+		rLoc = 257;
 		rType = 0;
 		vrLen = 239;
 		vrLoc = 0;
@@ -1531,7 +1962,7 @@
 		fRef = DBBB885A113AE99400D1354F /* WebPageListController.m */;
 		name = "WebPageListController.m: 67";
 		rLen = 0;
-		rLoc = 2168;
+		rLoc = 2200;
 		rType = 0;
 		vrLen = 2071;
 		vrLoc = 191;
@@ -1645,16 +2076,16 @@
 	};
 	DBBB8859113AE99400D1354F /* WebPageListController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {2086, 1038}}";
-			sepNavSelRange = "{205, 26}";
-			sepNavVisRange = "{0, 239}";
+			sepNavIntBoundsRect = "{{0, 0}, {2086, 1011}}";
+			sepNavSelRange = "{66, 0}";
+			sepNavVisRange = "{0, 291}";
 		};
 	};
 	DBBB885A113AE99400D1354F /* WebPageListController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {2086, 1248}}";
-			sepNavSelRange = "{2168, 0}";
-			sepNavVisRange = "{191, 2071}";
+			sepNavIntBoundsRect = "{{0, 0}, {2086, 1584}}";
+			sepNavSelRange = "{1987, 0}";
+			sepNavVisRange = "{357, 2303}";
 		};
 	};
 	DBBB885C113AE99C00D1354F /* ConversationListController.h */ = {
