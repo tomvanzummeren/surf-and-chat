@@ -1,4 +1,4 @@
-#import "ContentContainerController.h"
+@class ContentContainerController;
 
 @interface SurfAndChatAppDelegate : NSObject <UIApplicationDelegate> {
     

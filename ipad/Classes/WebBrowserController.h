@@ -1,3 +1,6 @@
+
+@class EventDispatcher;
+
 #import "WebBrowserDelegate.h"
 
 @interface WebBrowserController : UIViewController<UITextFieldDelegate, UIWebViewDelegate> {
@@ -14,10 +17,12 @@
 	
 	IBOutlet UIButton *refreshButton;
 	
-	@private
+  @private
 	int loadingCount;
 	
 	id<WebBrowserDelegate> delegate;
+	
+	EventDispatcher *eventDispatcher;
 }
 
 @property (retain, nonatomic) id<WebBrowserDelegate> delegate;
@@ -25,5 +30,7 @@
 - (NSString *) pageTitle;
 
 - (NSString *) pageUrl;
+
+- (IBAction) toggleFullScreen;
 
 @end
