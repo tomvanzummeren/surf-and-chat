@@ -21,4 +21,6 @@
 
 - (void) unregisterAllEventsForTarget:(id) target;
 
+- (void) dispatchEvent:(id) event;
+
 @end

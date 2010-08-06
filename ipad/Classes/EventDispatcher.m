@@ -63,14 +63,18 @@ static EventDispatcher *sharedInstance = nil;
 			dispatching = NO;
 		}
 		for (id event in receivedEvents) {
-			NSArray *targetActionPairs = [eventTargetActionPairs objectForKey:[event class]];
-			NSArray *targetActionPairsCopy = [NSArray arrayWithArray:targetActionPairs];
-			for (TargetActionPair *pair in targetActionPairsCopy) {
-				[pair executeForEvent:event];
-			}
+			[self dispatchEvent:event];
 		}
 	}
 	[pool release];
+}
+
+- (void) dispatchEvent:(id) event {
+	NSArray *targetActionPairs = [eventTargetActionPairs objectForKey:[event class]];
+	NSArray *targetActionPairsCopy = [NSArray arrayWithArray:targetActionPairs];
+	for (TargetActionPair *pair in targetActionPairsCopy) {
+		[pair executeForEvent:event];
+	}
 }
 
 + (EventDispatcher *) sharedInstance {

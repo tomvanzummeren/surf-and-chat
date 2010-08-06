@@ -1,3 +1,6 @@
+
+@class EventDispatcher;
+
 #import "WebBrowserDelegate.h"
 
 @interface WebBrowserController : UIViewController<UITextFieldDelegate, UIWebViewDelegate, UIActionSheetDelegate> {
@@ -20,6 +23,8 @@
 	int loadingCount;
 	
 	id<WebBrowserDelegate> delegate;
+	
+	EventDispatcher *eventDispatcher;
 }
 
 @property (retain, nonatomic) id<WebBrowserDelegate> delegate;

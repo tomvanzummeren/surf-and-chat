@@ -1,5 +1,8 @@
 #import "WebBrowserController.h"
 
+#import "EventDispatcher.h"
+#import "FullScreenEvent.h"
+
 @interface WebBrowserController()
 
 - (void) onRequestFinished;
@@ -14,7 +17,7 @@
 
 - (id)init {
     if ((self = [super initWithNibName:@"WebBrowserController" bundle:nil])) {
-		
+		eventDispatcher = [EventDispatcher sharedInstance];
     }
     return self;
 }

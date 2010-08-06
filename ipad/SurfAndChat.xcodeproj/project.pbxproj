@@ -60,6 +60,7 @@
 		DB1A135D11517D9C009D2B7A /* WebPageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB1A135C11517D9C009D2B7A /* WebPageCell.xib */; };
 		DB1A139E11518548009D2B7A /* ConversationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DB1A139C11518548009D2B7A /* ConversationCell.m */; };
 		DB1A139F11518548009D2B7A /* ConversationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB1A139D11518548009D2B7A /* ConversationCell.xib */; };
+		DB20B7C0120608080064298C /* FullScreenEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = DB20B7BF120608080064298C /* FullScreenEvent.m */; };
 		DB2120C11205D7C6001CD921 /* back-button.png in Resources */ = {isa = PBXBuildFile; fileRef = DB2120BF1205D7C6001CD921 /* back-button.png */; };
 		DB2120C21205D7C6001CD921 /* forward-button.png in Resources */ = {isa = PBXBuildFile; fileRef = DB2120C01205D7C6001CD921 /* forward-button.png */; };
 		DB2120CB1205DA4B001CD921 /* refresh.png in Resources */ = {isa = PBXBuildFile; fileRef = DB2120CA1205DA4B001CD921 /* refresh.png */; };
@@ -207,6 +208,8 @@
 		DB1A139B11518548009D2B7A /* ConversationCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConversationCell.h; sourceTree = "<group>"; };
 		DB1A139C11518548009D2B7A /* ConversationCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConversationCell.m; sourceTree = "<group>"; };
 		DB1A139D11518548009D2B7A /* ConversationCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ConversationCell.xib; sourceTree = "<group>"; };
+		DB20B7BE120608080064298C /* FullScreenEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FullScreenEvent.h; sourceTree = "<group>"; };
+		DB20B7BF120608080064298C /* FullScreenEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FullScreenEvent.m; sourceTree = "<group>"; };
 		DB21203412057E08001CD921 /* WebBrowserDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebBrowserDelegate.h; sourceTree = "<group>"; };
 		DB2120BF1205D7C6001CD921 /* back-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back-button.png"; sourceTree = "<group>"; };
 		DB2120C01205D7C6001CD921 /* forward-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "forward-button.png"; sourceTree = "<group>"; };
@@ -479,6 +482,7 @@
 		C200EC17112374CD001A33D3 /* Events */ = {
 			isa = PBXGroup;
 			children = (
+				DB20B7BD120607E90064298C /* Local */,
 				DBBB883F113ADF0600D1354F /* MSN */,
 				C252495F112C79470041C28C /* Dispatcher */,
 				C200EC18112374DE001A33D3 /* ReceivedMessage.h */,
@@ -540,6 +544,15 @@
 				DB1A127711503ACD009D2B7A /* ContentContainerController.xib */,
 			);
 			name = "Content Container";
+			sourceTree = "<group>";
+		};
+		DB20B7BD120607E90064298C /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				DB20B7BE120608080064298C /* FullScreenEvent.h */,
+				DB20B7BF120608080064298C /* FullScreenEvent.m */,
+			);
+			name = Local;
 			sourceTree = "<group>";
 		};
 		DB3DBEAC116A48BD0001DF8D /* Message */ = {
@@ -869,6 +882,7 @@
 				DB9833EE11A937BD005C0C18 /* ConversationListModel.m in Sources */,
 				DBDA4CED11FC852F00EC0805 /* LogoutEvent.m in Sources */,
 				DB9F58E811FF8AD000DEE61A /* WebBrowserController.m in Sources */,
+				DB20B7C0120608080064298C /* FullScreenEvent.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -936,11 +950,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: T van Zummeren (HB764UTKC8)";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "833B4541-3838-4A25-9E55-FC877A3A067E";
 				SDKROOT = iphoneos3.2;
 				VALID_ARCHS = "armv6 armv7";
 			};
