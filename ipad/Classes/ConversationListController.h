@@ -11,6 +11,8 @@
 
 	IBOutlet UISplitViewController *splitViewController;
 	
+	IBOutlet UIView *rootView;
+	
 @private 
 	MessengerService *messengerService;
 	

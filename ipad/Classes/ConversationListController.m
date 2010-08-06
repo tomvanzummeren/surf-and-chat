@@ -80,9 +80,8 @@
 }
 
 - (IBAction) showLoginPopover:(UIButton *) barButton {
-	[popoverController presentPopoverFromRect:[barButton frame] inView:[self view] permittedArrowDirections:UIPopoverArrowDirectionUp animated:YES];
+	[popoverController presentPopoverFromRect:[barButton frame] inView:rootView permittedArrowDirections:UIPopoverArrowDirectionUp animated:YES];
 }
-
 
 - (void) loginToMsnWithEmail:(NSString *) email andPassword:(NSString *) password {
 	NSError *error = nil;
@@ -233,6 +232,7 @@
 	[popoverController release];
 	[loginFormController release];
 	[model release];
+	[rootView release];
     [super dealloc];
 }
 

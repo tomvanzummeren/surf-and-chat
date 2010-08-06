@@ -9,9 +9,9 @@
 	};
 	1D3623250D0F684500981E51 /* SurfAndChatAppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {2086, 1003}}";
-			sepNavSelRange = "{628, 0}";
-			sepNavVisRange = "{0, 1069}";
+			sepNavIntBoundsRect = "{{0, 0}, {1094, 736}}";
+			sepNavSelRange = "{609, 0}";
+			sepNavVisRange = "{0, 768}";
 		};
 	};
 	1D6058900D05DD3D006BFB54 /* SurfAndChat */ = {
@@ -195,6 +195,7 @@
 			DB69A9B8120C78EC003EAC2A /* PBXTextBookmark */ = DB69A9B8120C78EC003EAC2A /* PBXTextBookmark */;
 			DB69A9BB120C79AC003EAC2A /* PBXTextBookmark */ = DB69A9BB120C79AC003EAC2A /* PBXTextBookmark */;
 			DB69A9BF120C79AE003EAC2A /* PBXTextBookmark */ = DB69A9BF120C79AE003EAC2A /* PBXTextBookmark */;
+			DB69A9D4120C9543003EAC2A /* PBXTextBookmark */ = DB69A9D4120C9543003EAC2A /* PBXTextBookmark */;
 			DB7C6292114EF075002931A9 = DB7C6292114EF075002931A9 /* PBXTextBookmark */;
 			DB7C6293114EF075002931A9 = DB7C6293114EF075002931A9 /* PBXTextBookmark */;
 			DB982F7C11A5C03E005C0C18 = DB982F7C11A5C03E005C0C18 /* PBXTextBookmark */;
@@ -1675,6 +1676,16 @@
 		vrLen = 1069;
 		vrLoc = 0;
 	};
+	DB69A9D4120C9543003EAC2A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* SurfAndChatAppDelegate.m */;
+		name = "SurfAndChatAppDelegate.m: 19";
+		rLen = 0;
+		rLoc = 609;
+		rType = 0;
+		vrLen = 768;
+		vrLoc = 0;
+	};
 	DB7C6226114EE8BA002931A9 /* ChatDialogControllerDelegate.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {2086, 1014}}";
@@ -2247,7 +2258,7 @@
 		fRef = DBBB885D113AE99C00D1354F /* ConversationListController.m */;
 		name = "ConversationListController.m: 204";
 		rLen = 0;
-		rLoc = 8584;
+		rLoc = 8617;
 		rType = 0;
 		vrLen = 2509;
 		vrLoc = 7290;
@@ -2435,16 +2446,16 @@
 	};
 	DBBB885C113AE99C00D1354F /* ConversationListController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {2086, 1038}}";
+			sepNavIntBoundsRect = "{{0, 0}, {2086, 1003}}";
 			sepNavSelRange = "{387, 54}";
 			sepNavVisRange = "{0, 712}";
 		};
 	};
 	DBBB885D113AE99C00D1354F /* ConversationListController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1348, 3808}}";
-			sepNavSelRange = "{8584, 0}";
-			sepNavVisRange = "{7374, 1388}";
+			sepNavIntBoundsRect = "{{0, 0}, {2086, 3920}}";
+			sepNavSelRange = "{3095, 0}";
+			sepNavVisRange = "{1864, 2568}";
 			sepNavWindowFrame = "{{15, 606}, {1185, 807}}";
 		};
 	};
