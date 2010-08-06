@@ -266,6 +266,7 @@
 								<string>29B97314FDCFA39411CA2CEA</string>
 								<string>080E96DDFE201D6D7F000001</string>
 								<string>C200EC17112374CD001A33D3</string>
+								<string>DB69A9B0120C78C8003EAC2A</string>
 								<string>DBBB883F113ADF0600D1354F</string>
 								<string>C252495F112C79470041C28C</string>
 								<string>C200EA08112326EA001A33D3</string>
@@ -290,16 +291,13 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>81</integer>
-									<integer>74</integer>
-									<integer>64</integer>
-									<integer>32</integer>
+									<integer>95</integer>
 									<integer>2</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 1142}, {391, 1300}}</string>
+							<string>{{0, 950}, {391, 1300}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -336,7 +334,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>WebBrowserController.m</string>
+								<string>SurfAndChatAppDelegate.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -344,11 +342,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>WebBrowserController.m</string>
+										<string>SurfAndChatAppDelegate.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>DB69A98C120C77E5003EAC2A</string>
+										<string>DB69A9B8120C78EC003EAC2A</string>
 										<key>history</key>
 										<array>
 											<string>DBBB8847113ADF9700D1354F</string>
@@ -361,7 +359,6 @@
 											<string>DB7C6292114EF075002931A9</string>
 											<string>DB7C6293114EF075002931A9</string>
 											<string>DB1A12161150243A009D2B7A</string>
-											<string>DB1A13F711518DBB009D2B7A</string>
 											<string>DBD79D9711567795000E4348</string>
 											<string>DBD79EAF1156A87C000E4348</string>
 											<string>DBD79F451156C6B7000E4348</string>
@@ -400,7 +397,6 @@
 											<string>DB0E9F7B1173CA820004333A</string>
 											<string>DB0E9F7C1173CA820004333A</string>
 											<string>DB0E9F9B1173D1180004333A</string>
-											<string>DB0E9F9C1173D1180004333A</string>
 											<string>DB0E9FE8117509C20004333A</string>
 											<string>DB0E9FE9117509C20004333A</string>
 											<string>DB0E9FEA117509C20004333A</string>
@@ -413,7 +409,6 @@
 											<string>DB98305B11A5DB95005C0C18</string>
 											<string>DB98305C11A5DB95005C0C18</string>
 											<string>DB9830A011A5E0DF005C0C18</string>
-											<string>DB98317D11A800FC005C0C18</string>
 											<string>DB98319111A8012B005C0C18</string>
 											<string>DB9831C511A824C7005C0C18</string>
 											<string>DB9831C911A824C7005C0C18</string>
@@ -477,7 +472,11 @@
 											<string>DB16CE0A120C5ADB00DE777B</string>
 											<string>DB16CE25120C5D1400DE777B</string>
 											<string>DB16CE26120C5D1400DE777B</string>
-											<string>DB16CE31120C5EA500DE777B</string>
+											<string>DB69A9B3120C78EC003EAC2A</string>
+											<string>DB69A9B4120C78EC003EAC2A</string>
+											<string>DB69A9B5120C78EC003EAC2A</string>
+											<string>DB69A9B6120C78EC003EAC2A</string>
+											<string>DB69A9B7120C78EC003EAC2A</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -675,6 +674,7 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>1CD10A99069EF8BA00B06720</string>
 		<string>DB5250FA1139F0C20057ECD7</string>
 		<string>/Users/tomvanzummeren/Development/Projects/surf-and-chat/ipad/SurfAndChat.xcodeproj</string>
 	</array>
@@ -700,7 +700,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string></string>
+								<string>SurfAndChatAppDelegate.m</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -717,6 +717,8 @@
 							<string>534pt</string>
 						</dict>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -878,13 +880,13 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1CD10A99069EF8BA00B06720</string>
-				<string>DB16CE00120C596000DE777B</string>
+				<string>DB69A9A5120C787C003EAC2A</string>
 				<string>1C162984064C10D400B95A72</string>
-				<string>DB16CE01120C596000DE777B</string>
-				<string>DB16CE02120C596000DE777B</string>
-				<string>DB16CE03120C596000DE777B</string>
-				<string>DB16CE04120C596000DE777B</string>
-				<string>DB16CE05120C596000DE777B</string>
+				<string>DB69A9A6120C787C003EAC2A</string>
+				<string>DB69A9A7120C787C003EAC2A</string>
+				<string>DB69A9A8120C787C003EAC2A</string>
+				<string>DB69A9A9120C787C003EAC2A</string>
+				<string>DB69A9AA120C787C003EAC2A</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>

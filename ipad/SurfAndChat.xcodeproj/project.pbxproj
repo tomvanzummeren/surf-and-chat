@@ -92,6 +92,7 @@
 		DB3DBFB3116A89490001DF8D /* gray-arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = DB3DBFB2116A89490001DF8D /* gray-arrow.png */; };
 		DB3DBFFD116BC9380001DF8D /* Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3DBFFC116BC9380001DF8D /* Layout.m */; };
 		DB518A9F11629767006D2197 /* AvatarReceivedEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = DB518A9E11629767006D2197 /* AvatarReceivedEvent.m */; };
+		DB69A9AF120C78C5003EAC2A /* FullScreenEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = DB69A9AE120C78C5003EAC2A /* FullScreenEvent.m */; };
 		DB98302E11A5DA45005C0C18 /* UserIsTypingEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = DB98302D11A5DA45005C0C18 /* UserIsTypingEvent.m */; };
 		DB9830D711A7F89B005C0C18 /* ChatDialogModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9830D611A7F89B005C0C18 /* ChatDialogModel.m */; };
 		DB9833EE11A937BD005C0C18 /* ConversationListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9833ED11A937BD005C0C18 /* ConversationListModel.m */; };
@@ -244,6 +245,8 @@
 		DB3DC10D116D0F7A0001DF8D /* LeftPanelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftPanelController.h; sourceTree = "<group>"; };
 		DB518A9D11629767006D2197 /* AvatarReceivedEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AvatarReceivedEvent.h; sourceTree = "<group>"; };
 		DB518A9E11629767006D2197 /* AvatarReceivedEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AvatarReceivedEvent.m; sourceTree = "<group>"; };
+		DB69A9AD120C78C5003EAC2A /* FullScreenEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FullScreenEvent.h; sourceTree = "<group>"; };
+		DB69A9AE120C78C5003EAC2A /* FullScreenEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FullScreenEvent.m; sourceTree = "<group>"; };
 		DB7C6226114EE8BA002931A9 /* ChatDialogControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatDialogControllerDelegate.h; sourceTree = "<group>"; };
 		DB98302C11A5DA45005C0C18 /* UserIsTypingEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserIsTypingEvent.h; sourceTree = "<group>"; };
 		DB98302D11A5DA45005C0C18 /* UserIsTypingEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserIsTypingEvent.m; sourceTree = "<group>"; };
@@ -479,6 +482,7 @@
 		C200EC17112374CD001A33D3 /* Events */ = {
 			isa = PBXGroup;
 			children = (
+				DB69A9B0120C78C8003EAC2A /* Application */,
 				DBBB883F113ADF0600D1354F /* MSN */,
 				C252495F112C79470041C28C /* Dispatcher */,
 				C200EC18112374DE001A33D3 /* ReceivedMessage.h */,
@@ -584,6 +588,15 @@
 				DB3DBFA3116A88380001DF8D /* gray-tr.png */,
 			);
 			name = Gray;
+			sourceTree = "<group>";
+		};
+		DB69A9B0120C78C8003EAC2A /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				DB69A9AD120C78C5003EAC2A /* FullScreenEvent.h */,
+				DB69A9AE120C78C5003EAC2A /* FullScreenEvent.m */,
+			);
+			name = Application;
 			sourceTree = "<group>";
 		};
 		DBA3D7E41152B47C00B27408 /* Main Content */ = {
@@ -869,6 +882,7 @@
 				DB9833EE11A937BD005C0C18 /* ConversationListModel.m in Sources */,
 				DBDA4CED11FC852F00EC0805 /* LogoutEvent.m in Sources */,
 				DB9F58E811FF8AD000DEE61A /* WebBrowserController.m in Sources */,
+				DB69A9AF120C78C5003EAC2A /* FullScreenEvent.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

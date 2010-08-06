@@ -1,8 +1,8 @@
 #import "SurfAndChatAppDelegate.h"
 
+#import "FullScreenEvent.h"
 #import "ContentContainerController.h"
 #import "EventDispatcher.h"
-#import "FullScreenEvent.h"
 
 @implementation SurfAndChatAppDelegate
 
