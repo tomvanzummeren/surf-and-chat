@@ -59,7 +59,7 @@
 					<object class="IBUITextField" id="76665315">
 						<reference key="NSNextResponder" ref="426616474"/>
 						<int key="NSvFlags">290</int>
-						<string key="NSFrame">{{240, 7}, {518, 31}}</string>
+						<string key="NSFrame">{{196, 7}, {562, 31}}</string>
 						<reference key="NSSuperview" ref="426616474"/>
 						<reference key="IBUIBackgroundColor" ref="753837038"/>
 						<bool key="IBUIOpaque">NO</bool>
@@ -94,7 +94,7 @@
 					<object class="IBUIButton" id="162469299">
 						<reference key="NSNextResponder" ref="426616474"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{64, 12}, {24, 24}}</string>
+						<string key="NSFrame">{{20, 12}, {24, 24}}</string>
 						<reference key="NSSuperview" ref="426616474"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<object class="IBUIAccessibilityConfiguration" key="IBUIAccessibilityConfiguration">
@@ -129,7 +129,7 @@
 					<object class="IBUIButton" id="361026396">
 						<reference key="NSNextResponder" ref="426616474"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{108, 12}, {24, 24}}</string>
+						<string key="NSFrame">{{64, 12}, {24, 24}}</string>
 						<reference key="NSSuperview" ref="426616474"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<object class="IBUIAccessibilityConfiguration" key="IBUIAccessibilityConfiguration">
@@ -154,7 +154,7 @@
 					<object class="IBUIButton" id="937090621">
 						<reference key="NSNextResponder" ref="426616474"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{152, 12}, {24, 24}}</string>
+						<string key="NSFrame">{{108, 12}, {24, 24}}</string>
 						<reference key="NSSuperview" ref="426616474"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
@@ -175,8 +175,8 @@
 					</object>
 					<object class="IBUIButton" id="509941234">
 						<reference key="NSNextResponder" ref="426616474"/>
-						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{196, 12}, {24, 24}}</string>
+						<int key="NSvFlags">-2147483356</int>
+						<string key="NSFrame">{{108, 12}, {24, 24}}</string>
 						<reference key="NSSuperview" ref="426616474"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
@@ -198,7 +198,7 @@
 					<object class="IBUIButton" id="453962227">
 						<reference key="NSNextResponder" ref="426616474"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{20, 12}, {24, 24}}</string>
+						<string key="NSFrame">{{152, 12}, {24, 24}}</string>
 						<reference key="NSSuperview" ref="426616474"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
@@ -214,7 +214,7 @@
 						<reference key="IBUINormalTitleShadowColor" ref="840279426"/>
 						<object class="NSCustomResource" key="IBUINormalBackgroundImage">
 							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">full-screen-button.png</string>
+							<string key="NSResourceName">action-button.png</string>
 						</object>
 					</object>
 				</object>
@@ -347,6 +347,23 @@
 					</object>
 					<int key="connectionID">36</int>
 				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchEventConnection" key="connection">
+						<string key="label">showActions</string>
+						<reference key="source" ref="453962227"/>
+						<reference key="destination" ref="841351856"/>
+						<int key="IBEventType">7</int>
+					</object>
+					<int key="connectionID">42</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">actionButton</string>
+						<reference key="source" ref="841351856"/>
+						<reference key="destination" ref="453962227"/>
+					</object>
+					<int key="connectionID">43</int>
+				</object>
 			</object>
 			<object class="IBMutableOrderedSet" key="objectRecords">
 				<object class="NSArray" key="orderedObjects">
@@ -421,7 +438,7 @@
 						<int key="objectID">35</int>
 						<reference key="object" ref="453962227"/>
 						<reference key="parent" ref="426616474"/>
-						<string key="objectName">Full Screen Button</string>
+						<string key="objectName">Action Button</string>
 					</object>
 				</object>
 			</object>
@@ -445,7 +462,7 @@
 					<bool key="EncodedWithXMLCoder">YES</bool>
 					<string>WebBrowserController</string>
 					<string>UIResponder</string>
-					<string>{{631, 335}, {768, 1004}}</string>
+					<string>{{632, 335}, {768, 1004}}</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
@@ -472,7 +489,7 @@
 				</object>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">36</int>
+			<int key="maxID">43</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -494,10 +511,22 @@
 				<object class="IBPartialClassDescription">
 					<string key="className">WebBrowserController</string>
 					<string key="superclassName">UIViewController</string>
+					<object class="NSMutableDictionary" key="actions">
+						<string key="NS.key.0">showActions</string>
+						<string key="NS.object.0">id</string>
+					</object>
+					<object class="NSMutableDictionary" key="actionInfosByName">
+						<string key="NS.key.0">showActions</string>
+						<object class="IBActionInfo" key="NS.object.0">
+							<string key="name">showActions</string>
+							<string key="candidateClassName">id</string>
+						</object>
+					</object>
 					<object class="NSMutableDictionary" key="outlets">
 						<bool key="EncodedWithXMLCoder">YES</bool>
 						<object class="NSArray" key="dict.sortedKeys">
 							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>actionButton</string>
 							<string>backButton</string>
 							<string>delegate</string>
 							<string>forwardButton</string>
@@ -508,6 +537,7 @@
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>UIButton</string>
 							<string>UIButton</string>
 							<string>id</string>
 							<string>UIButton</string>
@@ -521,6 +551,7 @@
 						<bool key="EncodedWithXMLCoder">YES</bool>
 						<object class="NSArray" key="dict.sortedKeys">
 							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>actionButton</string>
 							<string>backButton</string>
 							<string>delegate</string>
 							<string>forwardButton</string>
@@ -531,6 +562,10 @@
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>
+							<object class="IBToOneOutletInfo">
+								<string key="name">actionButton</string>
+								<string key="candidateClassName">UIButton</string>
+							</object>
 							<object class="IBToOneOutletInfo">
 								<string key="name">backButton</string>
 								<string key="candidateClassName">UIButton</string>
@@ -808,9 +843,9 @@
 			<bool key="EncodedWithXMLCoder">YES</bool>
 			<object class="NSArray" key="dict.sortedKeys">
 				<bool key="EncodedWithXMLCoder">YES</bool>
+				<string>action-button.png</string>
 				<string>back-button.png</string>
 				<string>forward-button.png</string>
-				<string>full-screen-button.png</string>
 				<string>refresh.png</string>
 				<string>stop-button.png</string>
 			</object>

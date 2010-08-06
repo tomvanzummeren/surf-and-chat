@@ -53,6 +53,7 @@
 		DB0E9F901173CD790004333A /* new-webpage-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DB0E9F8F1173CD790004333A /* new-webpage-icon.png */; };
 		DB0E9FAB1174D62C0004333A /* selected-webpage-left.png in Resources */ = {isa = PBXBuildFile; fileRef = DB0E9FAA1174D62C0004333A /* selected-webpage-left.png */; };
 		DB0E9FE31174F7C00004333A /* webpages-bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB0E9FE21174F7C00004333A /* webpages-bg.jpg */; };
+		DB16CDED120C533A00DE777B /* action-button.png in Resources */ = {isa = PBXBuildFile; fileRef = DB16CDEC120C533A00DE777B /* action-button.png */; };
 		DB1A124C1150339D009D2B7A /* ContentContainerController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB1A124A1150339D009D2B7A /* ContentContainerController.m */; };
 		DB1A127811503ACD009D2B7A /* ContentContainerController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB1A127711503ACD009D2B7A /* ContentContainerController.xib */; };
 		DB1A135311517C51009D2B7A /* WebPageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DB1A135211517C51009D2B7A /* WebPageCell.m */; };
@@ -196,6 +197,7 @@
 		DB0E9F8F1173CD790004333A /* new-webpage-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "new-webpage-icon.png"; sourceTree = "<group>"; };
 		DB0E9FAA1174D62C0004333A /* selected-webpage-left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "selected-webpage-left.png"; sourceTree = "<group>"; };
 		DB0E9FE21174F7C00004333A /* webpages-bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "webpages-bg.jpg"; sourceTree = "<group>"; };
+		DB16CDEC120C533A00DE777B /* action-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "action-button.png"; sourceTree = "<group>"; };
 		DB1A12491150339D009D2B7A /* ContentContainerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentContainerController.h; sourceTree = "<group>"; };
 		DB1A124A1150339D009D2B7A /* ContentContainerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentContainerController.m; sourceTree = "<group>"; };
 		DB1A127711503ACD009D2B7A /* ContentContainerController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContentContainerController.xib; sourceTree = "<group>"; };
@@ -356,6 +358,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources-iPad */ = {
 			isa = PBXGroup;
 			children = (
+				DB16CDEC120C533A00DE777B /* action-button.png */,
 				DB2120F41205EC05001CD921 /* full-screen-button.png */,
 				DB2120D41205E023001CD921 /* stop-button.png */,
 				DB2120CA1205DA4B001CD921 /* refresh.png */,
@@ -808,6 +811,7 @@
 				DB2120CB1205DA4B001CD921 /* refresh.png in Resources */,
 				DB2120D51205E023001CD921 /* stop-button.png in Resources */,
 				DB2120F51205EC05001CD921 /* full-screen-button.png in Resources */,
+				DB16CDED120C533A00DE777B /* action-button.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

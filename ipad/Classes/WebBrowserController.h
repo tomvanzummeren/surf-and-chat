@@ -1,6 +1,6 @@
 #import "WebBrowserDelegate.h"
 
-@interface WebBrowserController : UIViewController<UITextFieldDelegate, UIWebViewDelegate> {
+@interface WebBrowserController : UIViewController<UITextFieldDelegate, UIWebViewDelegate, UIActionSheetDelegate> {
 
 	IBOutlet UIWebView *webView;
 	
@@ -14,6 +14,8 @@
 	
 	IBOutlet UIButton *refreshButton;
 	
+	IBOutlet UIButton *actionButton;
+	
 	@private
 	int loadingCount;
 	
@@ -25,5 +27,7 @@
 - (NSString *) pageTitle;
 
 - (NSString *) pageUrl;
+
+- (IBAction) showActions;
 
 @end

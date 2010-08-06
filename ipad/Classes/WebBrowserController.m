@@ -23,7 +23,7 @@
     [super viewDidLoad];
 	[backButton setEnabled:NO];
 	[forwardButton setEnabled:NO];
-	[stopButton setEnabled:NO];
+	[actionButton setEnabled:NO];
 	[refreshButton setEnabled:NO];
 }
 
@@ -59,8 +59,9 @@
 - (void)webViewDidStartLoad:(UIWebView *) sender {
 	[[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:YES];
 	loadingCount ++;
-	[stopButton setEnabled:YES];
-	[refreshButton setEnabled:YES];
+	[stopButton setHidden:NO];
+	[refreshButton setHidden:YES];
+	[actionButton setEnabled:YES];
 }
 
 - (void)webViewDidFinishLoad:(UIWebView *) sender {
@@ -86,10 +87,30 @@
 		NSString *title = [webView stringByEvaluatingJavaScriptFromString:@"document.title"]; 
 		[self setTitle:title];
 		[[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:NO];
-		[stopButton setEnabled:NO];
+		[stopButton setHidden:YES];
+		[refreshButton setHidden:NO];
+		[refreshButton setEnabled:YES];
 	}
 	[backButton setEnabled:[webView canGoBack]];
 	[forwardButton setEnabled:[webView canGoForward]];
+}
+
+- (IBAction) showActions {
+	
+	UIActionSheet *actionSheet = [[UIActionSheet alloc]
+								  initWithTitle:nil
+								  delegate:self
+								  cancelButtonTitle:nil
+								  destructiveButtonTitle:nil
+								  otherButtonTitles:@"Open in Safari", nil];
+	[actionSheet showFromRect:[actionButton frame] inView:[self view] animated:YES];
+}
+
+- (void)actionSheet:(UIActionSheet *)actionSheet willDismissWithButtonIndex:(NSInteger)buttonIndex {
+	if (buttonIndex == 0) {
+		NSURL *url = [[webView request] URL];
+		[[UIApplication sharedApplication] openURL:url];
+	}
 }
 
 - (void)dealloc {
