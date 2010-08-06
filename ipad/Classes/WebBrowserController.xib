@@ -349,16 +349,11 @@
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBCocoaTouchEventConnection" key="connection">
-<<<<<<< HEAD
 						<string key="label">showActions</string>
-=======
-						<string key="label">toggleFullScreen</string>
->>>>>>> b812e571adab89740cb6d0cfd0ff7aba9a576aa4
 						<reference key="source" ref="453962227"/>
 						<reference key="destination" ref="841351856"/>
 						<int key="IBEventType">7</int>
 					</object>
-<<<<<<< HEAD
 					<int key="connectionID">42</int>
 				</object>
 				<object class="IBConnectionRecord">
@@ -368,9 +363,6 @@
 						<reference key="destination" ref="453962227"/>
 					</object>
 					<int key="connectionID">43</int>
-=======
-					<int key="connectionID">37</int>
->>>>>>> b812e571adab89740cb6d0cfd0ff7aba9a576aa4
 				</object>
 			</object>
 			<object class="IBMutableOrderedSet" key="objectRecords">
@@ -470,11 +462,7 @@
 					<bool key="EncodedWithXMLCoder">YES</bool>
 					<string>WebBrowserController</string>
 					<string>UIResponder</string>
-<<<<<<< HEAD
 					<string>{{632, 335}, {768, 1004}}</string>
-=======
-					<string>{{545, 4}, {783, 852}}</string>
->>>>>>> b812e571adab89740cb6d0cfd0ff7aba9a576aa4
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
@@ -501,11 +489,7 @@
 				</object>
 			</object>
 			<nil key="sourceID"/>
-<<<<<<< HEAD
 			<int key="maxID">43</int>
-=======
-			<int key="maxID">37</int>
->>>>>>> b812e571adab89740cb6d0cfd0ff7aba9a576aa4
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -528,7 +512,6 @@
 					<string key="className">WebBrowserController</string>
 					<string key="superclassName">UIViewController</string>
 					<object class="NSMutableDictionary" key="actions">
-<<<<<<< HEAD
 						<string key="NS.key.0">showActions</string>
 						<string key="NS.object.0">id</string>
 					</object>
@@ -536,15 +519,6 @@
 						<string key="NS.key.0">showActions</string>
 						<object class="IBActionInfo" key="NS.object.0">
 							<string key="name">showActions</string>
-=======
-						<string key="NS.key.0">toggleFullScreen</string>
-						<string key="NS.object.0">id</string>
-					</object>
-					<object class="NSMutableDictionary" key="actionInfosByName">
-						<string key="NS.key.0">toggleFullScreen</string>
-						<object class="IBActionInfo" key="NS.object.0">
-							<string key="name">toggleFullScreen</string>
->>>>>>> b812e571adab89740cb6d0cfd0ff7aba9a576aa4
 							<string key="candidateClassName">id</string>
 						</object>
 					</object>

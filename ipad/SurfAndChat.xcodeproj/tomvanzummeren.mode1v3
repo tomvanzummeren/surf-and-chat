@@ -348,7 +348,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>DB16CE32120C731600DE777B</string>
+										<string>DB69A98C120C77E5003EAC2A</string>
 										<key>history</key>
 										<array>
 											<string>DBBB8847113ADF9700D1354F</string>
@@ -477,7 +477,7 @@
 											<string>DB16CE0A120C5ADB00DE777B</string>
 											<string>DB16CE25120C5D1400DE777B</string>
 											<string>DB16CE26120C5D1400DE777B</string>
-											<string>DB16CE27120C5D1400DE777B</string>
+											<string>DB16CE31120C5EA500DE777B</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -489,14 +489,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {2147, 1062}}</string>
+								<string>{{0, 0}, {2147, 1058}}</string>
 								<key>RubberWindowFrame</key>
 								<string>0 59 2560 1359 0 0 2560 1418 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>1062pt</string>
+							<string>1058pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -509,14 +509,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 1067}, {2147, 251}}</string>
+								<string>{{0, 1063}, {2147, 255}}</string>
 								<key>RubberWindowFrame</key>
 								<string>0 59 2560 1359 0 0 2560 1418 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>251pt</string>
+							<string>255pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -535,9 +535,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>DB16CDE8120C307500DE777B</string>
+				<string>DB69A98D120C77E5003EAC2A</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>DB16CDE9120C307500DE777B</string>
+				<string>DB69A98E120C77E5003EAC2A</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -675,10 +675,7 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>1C78EAAD065D492600B07095</string>
-		<string>1CD10A99069EF8BA00B06720</string>
 		<string>DB5250FA1139F0C20057ECD7</string>
-		<string>1C530D57069F1CE1000CFCEE</string>
 		<string>/Users/tomvanzummeren/Development/Projects/surf-and-chat/ipad/SurfAndChat.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
@@ -759,7 +756,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>DB5250FA1139F0C20057ECD7</string>
-				<string>DB16CDEA120C307500DE777B</string>
+				<string>DB69A98F120C77E5003EAC2A</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
