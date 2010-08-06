@@ -93,6 +93,8 @@
 		DB3DBFFD116BC9380001DF8D /* Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3DBFFC116BC9380001DF8D /* Layout.m */; };
 		DB518A9F11629767006D2197 /* AvatarReceivedEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = DB518A9E11629767006D2197 /* AvatarReceivedEvent.m */; };
 		DB69A9AF120C78C5003EAC2A /* FullScreenEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = DB69A9AE120C78C5003EAC2A /* FullScreenEvent.m */; };
+		DB69A9C4120C7BB8003EAC2A /* Default-Landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = DB69A9C2120C7BB8003EAC2A /* Default-Landscape.png */; };
+		DB69A9C5120C7BB8003EAC2A /* Default-Portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = DB69A9C3120C7BB8003EAC2A /* Default-Portrait.png */; };
 		DB98302E11A5DA45005C0C18 /* UserIsTypingEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = DB98302D11A5DA45005C0C18 /* UserIsTypingEvent.m */; };
 		DB9830D711A7F89B005C0C18 /* ChatDialogModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9830D611A7F89B005C0C18 /* ChatDialogModel.m */; };
 		DB9833EE11A937BD005C0C18 /* ConversationListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9833ED11A937BD005C0C18 /* ConversationListModel.m */; };
@@ -247,6 +249,8 @@
 		DB518A9E11629767006D2197 /* AvatarReceivedEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AvatarReceivedEvent.m; sourceTree = "<group>"; };
 		DB69A9AD120C78C5003EAC2A /* FullScreenEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FullScreenEvent.h; sourceTree = "<group>"; };
 		DB69A9AE120C78C5003EAC2A /* FullScreenEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FullScreenEvent.m; sourceTree = "<group>"; };
+		DB69A9C2120C7BB8003EAC2A /* Default-Landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape.png"; sourceTree = "<group>"; };
+		DB69A9C3120C7BB8003EAC2A /* Default-Portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait.png"; sourceTree = "<group>"; };
 		DB7C6226114EE8BA002931A9 /* ChatDialogControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatDialogControllerDelegate.h; sourceTree = "<group>"; };
 		DB98302C11A5DA45005C0C18 /* UserIsTypingEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserIsTypingEvent.h; sourceTree = "<group>"; };
 		DB98302D11A5DA45005C0C18 /* UserIsTypingEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserIsTypingEvent.m; sourceTree = "<group>"; };
@@ -361,6 +365,8 @@
 		29B97317FDCFA39411CA2CEA /* Resources-iPad */ = {
 			isa = PBXGroup;
 			children = (
+				DB69A9C2120C7BB8003EAC2A /* Default-Landscape.png */,
+				DB69A9C3120C7BB8003EAC2A /* Default-Portrait.png */,
 				DB16CDEC120C533A00DE777B /* action-button.png */,
 				DB2120F41205EC05001CD921 /* full-screen-button.png */,
 				DB2120D41205E023001CD921 /* stop-button.png */,
@@ -825,6 +831,8 @@
 				DB2120D51205E023001CD921 /* stop-button.png in Resources */,
 				DB2120F51205EC05001CD921 /* full-screen-button.png in Resources */,
 				DB16CDED120C533A00DE777B /* action-button.png in Resources */,
+				DB69A9C4120C7BB8003EAC2A /* Default-Landscape.png in Resources */,
+				DB69A9C5120C7BB8003EAC2A /* Default-Portrait.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

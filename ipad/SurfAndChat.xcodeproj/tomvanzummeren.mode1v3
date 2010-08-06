@@ -346,7 +346,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>DB69A9B8120C78EC003EAC2A</string>
+										<string>DB69A9BF120C79AE003EAC2A</string>
 										<key>history</key>
 										<array>
 											<string>DBBB8847113ADF9700D1354F</string>
@@ -674,6 +674,7 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>1C78EAAD065D492600B07095</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>DB5250FA1139F0C20057ECD7</string>
 		<string>/Users/tomvanzummeren/Development/Projects/surf-and-chat/ipad/SurfAndChat.xcodeproj</string>
@@ -1005,6 +1006,8 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -1040,7 +1043,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C78EAAD065D492600B07095</string>
-				<string>DB16CE10120C5ADB00DE777B</string>
+				<string>DB69A9BC120C79AC003EAC2A</string>
 				<string>1C78EAAC065D492600B07095</string>
 			</array>
 			<key>ToolbarConfiguration</key>
