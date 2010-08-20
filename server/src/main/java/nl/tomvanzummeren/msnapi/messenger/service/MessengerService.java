@@ -44,17 +44,23 @@ public class MessengerService implements DisposableBean {
         userSessions = new HashMap<String, UserSession>();
     }
 
-    public void login(String email, String password, final String sessionId) {
+    public void login(LoginForm loginForm, final String sessionId) {
         UserSession existingUserSession = userSessions.get(sessionId);
         if (existingUserSession != null) {
             existingUserSession.getMessenger().logout();
         }
 
-        MsnMessenger messenger = MsnMessengerFactory.createMsnMessenger(email, password);
+        MsnMessenger messenger = MsnMessengerFactory.createMsnMessenger(loginForm.getEmail(), loginForm.getPassword());
         messenger.setSupportedProtocol(new MsnProtocol[] {DEFAULT_MSN_PROTOCOL});
-        messenger.getOwner().setInitStatus(MsnUserStatus.ONLINE);
-//        messenger.setLogIncoming(true);
-//        messenger.setLogOutgoing(true);
+
+        MsnOwner owner = messenger.getOwner();
+        owner.setInitStatus(MsnUserStatus.ONLINE);
+        if (loginForm.getDisplayName() != null) {
+            owner.setInitDisplayName(loginForm.getDisplayName());
+        }
+        if (loginForm.getPersonalMessage() != null) {
+            owner.setInitPersonalMessage(loginForm.getPersonalMessage());
+        }
 
         UserSession userSession = new UserSession(messenger);
         userSessions.put(sessionId, userSession);

@@ -90,7 +90,7 @@
 		UIAlertView *alert = [[[UIAlertView alloc] initWithTitle:[error localizedDescription]
 														 message:[error localizedFailureReason]
 														delegate:nil 
-											   cancelButtonTitle:@"OK" 
+											   cancelButtonTitle:@"OK"
 											   otherButtonTitles:nil] autorelease];		
 		[alert show];
 		return;

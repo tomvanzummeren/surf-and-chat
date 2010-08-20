@@ -1,3 +1,3 @@
-@interface UINavigationBar (CustomBackground)
+@interface UINavigationBar (SolidBackground)
 
 @end

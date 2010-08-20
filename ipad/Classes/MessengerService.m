@@ -11,6 +11,8 @@
 #import "AvatarReceivedEvent.h"
 #import "UserIsTypingEvent.h"
 #import "LogoutEvent.h"
+#import "ProfileStore.h"
+#import "Profile.h"
 
 #ifndef DEBUG
 // Live configuration
@@ -33,6 +35,7 @@
 
 - (id) init {
 	if (self = [super init]) {
+		profileStore = [[ProfileStore alloc] init];
 	}
 	return self;
 }
@@ -41,7 +44,9 @@
 #pragma mark Public service methods
 
 - (void) loginWithEmail:(NSString *) email andPassword:(NSString *) password error:(NSError **) error {
-	NSDictionary *parameters = [NSDictionary dictionaryWithObjectsAndKeys:email, @"email", password, @"password", nil];
+	Profile *profile = [profileStore loadProfile];
+	
+	NSDictionary *parameters = [NSDictionary dictionaryWithObjectsAndKeys:email, @"email", password, @"password", [profile displayName], @"displayName", [profile personalMessage], @"personalMessage", nil];
 	HttpRequest *request = [[[HttpRequest alloc] initForPost:[NSString stringWithFormat:@"%@/api/login", SERVER_URL] withParameters:parameters] autorelease];
 	NSError *httpError;
 	[request perform:&httpError];
@@ -220,6 +225,11 @@
 	NSError *jsonError;
 	NSDictionary *rootJsonObject = (NSDictionary *)[jsonParser objectWithString:jsonResponse error:&jsonError];
 	return rootJsonObject;
+}
+
+- (void) dealloc {
+	[profileStore release];
+	[super dealloc];
 }
 
 @end

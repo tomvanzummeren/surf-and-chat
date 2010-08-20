@@ -7,6 +7,8 @@
 </head>
 <h1>Active Sessions</h1>
 
+<a href="<c:url value="/j_spring_security_logout"/>">Logout</a>
+
 <table>
     <tr>
         <th width="30"></th>

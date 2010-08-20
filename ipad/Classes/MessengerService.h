@@ -1,7 +1,10 @@
 @class MsnContact;
+@class ProfileStore;
 
 @interface MessengerService : NSObject {
 	
+	@private
+	ProfileStore *profileStore;
 }
 
 - (void) loginWithEmail:(NSString *) email andPassword:(NSString *) password error:(NSError **) error;

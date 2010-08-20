@@ -13,6 +13,10 @@ public class SuccessJson {
         success = true;
     }
 
+    public SuccessJson(boolean success) {
+        this.success = success;
+    }
+
     public boolean isSuccess() {
         return success;
     }

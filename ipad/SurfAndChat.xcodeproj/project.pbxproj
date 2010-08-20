@@ -109,6 +109,7 @@
 		DBA8697211727A40001F242E /* contact-list-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DBA8697111727A40001F242E /* contact-list-icon.png */; };
 		DBA869DC11733558001F242E /* webpages-headerbar.gif in Resources */ = {isa = PBXBuildFile; fileRef = DBA869DB11733558001F242E /* webpages-headerbar.gif */; };
 		DBA86A5E117347AA001F242E /* UINavigationBar+SolidBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA86A5D117347AA001F242E /* UINavigationBar+SolidBackground.m */; };
+		DBB9CD2F121EAEFF002CF81B /* ProfileStore.m in Sources */ = {isa = PBXBuildFile; fileRef = DBB9CD2E121EAEFF002CF81B /* ProfileStore.m */; };
 		DBBB8786113AC83100D1354F /* ContactUpdatedEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = DBBB8785113AC83100D1354F /* ContactUpdatedEvent.m */; };
 		DBBB885B113AE99400D1354F /* WebPageListController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBBB885A113AE99400D1354F /* WebPageListController.m */; };
 		DBBB885E113AE99C00D1354F /* ConversationListController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBBB885D113AE99C00D1354F /* ConversationListController.m */; };
@@ -273,6 +274,8 @@
 		DBA869DB11733558001F242E /* webpages-headerbar.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "webpages-headerbar.gif"; sourceTree = "<group>"; };
 		DBA86A5C117347AA001F242E /* UINavigationBar+SolidBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+SolidBackground.h"; sourceTree = "<group>"; };
 		DBA86A5D117347AA001F242E /* UINavigationBar+SolidBackground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+SolidBackground.m"; sourceTree = "<group>"; };
+		DBB9CD2D121EAEFF002CF81B /* ProfileStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileStore.h; sourceTree = "<group>"; };
+		DBB9CD2E121EAEFF002CF81B /* ProfileStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileStore.m; sourceTree = "<group>"; };
 		DBBB8784113AC83100D1354F /* ContactUpdatedEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactUpdatedEvent.h; sourceTree = "<group>"; };
 		DBBB8785113AC83100D1354F /* ContactUpdatedEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactUpdatedEvent.m; sourceTree = "<group>"; };
 		DBBB8859113AE99400D1354F /* WebPageListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebPageListController.h; sourceTree = "<group>"; };
@@ -326,8 +329,6 @@
 				C200EB9B112367E9001A33D3 /* HttpRequest.m */,
 				1D3623240D0F684500981E51 /* SurfAndChatAppDelegate.h */,
 				1D3623250D0F684500981E51 /* SurfAndChatAppDelegate.m */,
-				DB3DBE99116A25090001DF8D /* Profile.h */,
-				DB3DBE9A116A25090001DF8D /* Profile.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -617,6 +618,10 @@
 		DBA3D7E61152B4A000B27408 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				DB3DBE99116A25090001DF8D /* Profile.h */,
+				DB3DBE9A116A25090001DF8D /* Profile.m */,
+				DBB9CD2D121EAEFF002CF81B /* ProfileStore.h */,
+				DBB9CD2E121EAEFF002CF81B /* ProfileStore.m */,
 				DBA3D7E71152B4CB00B27408 /* ProfileController.h */,
 				DBA3D7E81152B4CB00B27408 /* ProfileController.m */,
 				DBA3D7E91152B4CB00B27408 /* ProfileController.xib */,
@@ -891,6 +896,7 @@
 				DBDA4CED11FC852F00EC0805 /* LogoutEvent.m in Sources */,
 				DB9F58E811FF8AD000DEE61A /* WebBrowserController.m in Sources */,
 				DB69A9AF120C78C5003EAC2A /* FullScreenEvent.m in Sources */,
+				DBB9CD2F121EAEFF002CF81B /* ProfileStore.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

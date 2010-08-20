@@ -4,6 +4,7 @@ import nl.tomvanzummeren.msnapi.common.JsonView;
 import nl.tomvanzummeren.msnapi.common.SuccessJson;
 import nl.tomvanzummeren.msnapi.messenger.json.LoginStatusJson;
 import nl.tomvanzummeren.msnapi.messenger.json.events.ReceivedEventsJson;
+import nl.tomvanzummeren.msnapi.messenger.service.LoginForm;
 import nl.tomvanzummeren.msnapi.messenger.service.MessengerService;
 import nl.tomvanzummeren.msnapi.messenger.service.events.MsnEvent;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -46,8 +47,11 @@ public class MessengerController {
     }
 
     @RequestMapping("/login")
-    public JsonView login(@RequestParam String email, @RequestParam String password, HttpSession session) {
-        messengerService.login(email, password, session.getId());
+    public JsonView login(LoginForm loginForm, HttpSession session) {
+        if (!loginForm.isValid()) {
+            return new JsonView(new SuccessJson(false));
+        }
+        messengerService.login(loginForm, session.getId());
         return new JsonView(new SuccessJson());
     }
 

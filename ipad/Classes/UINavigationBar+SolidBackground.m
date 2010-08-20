@@ -1,6 +1,6 @@
 #import "UINavigationBar+SolidBackground.h"
 
-@implementation UINavigationBar(CustomBackground)
+@implementation UINavigationBar(SolidBackground)
 
 - (void) drawRect:(CGRect)rect {
 	CGContextRef context = UIGraphicsGetCurrentContext();

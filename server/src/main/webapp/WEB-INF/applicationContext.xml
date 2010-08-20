@@ -2,9 +2,26 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:security="http://www.springframework.org/schema/security"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
-       http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+       http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+       http://www.springframework.org/schema/security http://www.springframework.org/schema/security/spring-security-3.0.xsd">
 
     <context:component-scan base-package="nl.tomvanzummeren.msnapi.messenger.service"/>
+
+    <security:http use-expressions="true">
+        <security:intercept-url pattern="/admin/**" access="isAuthenticated()"/>
+        <security:intercept-url pattern="/monitoring/**" access="isAuthenticated()"/>
+        <security:form-login default-target-url="/admin"/>
+        <security:logout logout-success-url="/admin"/>
+    </security:http>
+
+    <security:authentication-manager alias="authenticationManager">
+        <security:authentication-provider>
+            <security:user-service>
+                <security:user name="tomvanzummeren" password="cH33Zyvz" authorities="ADMIN"/>
+            </security:user-service>
+        </security:authentication-provider>
+    </security:authentication-manager>
 
 </beans>
