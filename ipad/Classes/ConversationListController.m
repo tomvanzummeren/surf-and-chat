@@ -141,6 +141,7 @@
 }
 
 - (void) contactSelected:(MsnContact *) contact {
+	[deselectionDelegate deselect];
 	[popoverController dismissPopoverAnimated:YES];
 	
 	ChatDialogController *chatDialogController = [model conversationByContactEmail:[contact email]];
@@ -213,6 +214,7 @@
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+	[deselectionDelegate deselect];
 	ChatDialogController *chatDialogController = [model conversationAtIndex:[indexPath row]];
 	[self activateChatDialog:chatDialogController];
 	
@@ -224,6 +226,10 @@
 	return 70;
 }
 
+- (void) deselect {
+	[[self tableView] deselectRowAtIndexPath:[[self tableView] indexPathForSelectedRow] animated:YES];
+}
+
 #pragma mark -
 #pragma mark Memory management
 
@@ -233,6 +239,7 @@
 	[loginFormController release];
 	[model release];
 	[rootView release];
+	[deselectionDelegate release];
     [super dealloc];
 }
 

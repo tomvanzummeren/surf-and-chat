@@ -252,6 +252,7 @@
 		DB69A9AE120C78C5003EAC2A /* FullScreenEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FullScreenEvent.m; sourceTree = "<group>"; };
 		DB69A9C2120C7BB8003EAC2A /* Default-Landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape.png"; sourceTree = "<group>"; };
 		DB69A9C3120C7BB8003EAC2A /* Default-Portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait.png"; sourceTree = "<group>"; };
+		DB7BB9BE122D7CE80046D96D /* DeselectionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeselectionDelegate.h; sourceTree = "<group>"; };
 		DB7C6226114EE8BA002931A9 /* ChatDialogControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatDialogControllerDelegate.h; sourceTree = "<group>"; };
 		DB98302C11A5DA45005C0C18 /* UserIsTypingEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserIsTypingEvent.h; sourceTree = "<group>"; };
 		DB98302D11A5DA45005C0C18 /* UserIsTypingEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserIsTypingEvent.m; sourceTree = "<group>"; };
@@ -720,6 +721,7 @@
 				DBE90EC4113B2B7F0057E788 /* DragNavigationBarDelegate.h */,
 				DB3DC10D116D0F7A0001DF8D /* LeftPanelController.h */,
 				DBE90F23113B32FF0057E788 /* LeftPanelController.m */,
+				DB7BB9BE122D7CE80046D96D /* DeselectionDelegate.h */,
 			);
 			name = "Left Navigation";
 			sourceTree = "<group>";

@@ -109,6 +109,10 @@
 	[actionSheet showFromRect:[actionButton frame] inView:[self view] animated:YES];
 }
 
+- (IBAction) closeWindow {
+	[delegate closeWindow:self];
+}
+
 - (void)actionSheet:(UIActionSheet *)actionSheet willDismissWithButtonIndex:(NSInteger)buttonIndex {
 	if (buttonIndex == 0) {
 		NSURL *url = [[webView request] URL];

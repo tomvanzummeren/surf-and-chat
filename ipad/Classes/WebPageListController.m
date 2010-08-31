@@ -3,6 +3,7 @@
 #import "WebPageListController.h"
 #import "WebBrowserController.h"
 #import "ContentContainerController.h"
+#import "InitialViewController.h"
 
 @implementation WebPageListController
 
@@ -54,6 +55,7 @@
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+	[deselectionDelegate deselect];
 	WebBrowserController *webBrowser = [webBrowsers objectAtIndex:[indexPath row]];
 	[contentContainerController setContentController:webBrowser];
 }
@@ -86,11 +88,43 @@
 	[[self tableView] reloadRowsAtIndexPaths:[NSArray arrayWithObject:indexPath] withRowAnimation:UITableViewRowAnimationNone];
 }
 
+- (void) deselect {
+	[[self tableView] deselectRowAtIndexPath:[[self tableView] indexPathForSelectedRow] animated:YES];
+}
+
+- (void) closeWindow:(WebBrowserController *) webBrowser {
+	// Remove ChatDialogController from the list
+	int index = [webBrowsers indexOfObject:webBrowser];
+	[webBrowsers removeObjectAtIndex:index];
+	NSIndexPath *removedControllerIndexPath = [NSIndexPath indexPathForRow:index inSection:0];
+	
+	[[self tableView] deleteRowsAtIndexPaths:[NSArray arrayWithObject:removedControllerIndexPath] withRowAnimation:UITableViewRowAnimationFade];
+	
+	// Decide on which WebBrowserController to activate next
+	UIViewController *nextController;
+	if ([webBrowsers count] == 0) {
+		nextController = [[[InitialViewController alloc] initWithNibName:@"InitialViewController" bundle:nil] autorelease];
+	} else if ([removedControllerIndexPath row] > 0) {
+		[[self tableView] selectRowAtIndexPath:[NSIndexPath indexPathForRow:[removedControllerIndexPath row] - 1 inSection:0] 
+									  animated:NO 
+								scrollPosition:UITableViewScrollPositionNone];
+		nextController = [webBrowsers objectAtIndex:[removedControllerIndexPath row] - 1];
+	} else {
+		[[self tableView] selectRowAtIndexPath:[NSIndexPath indexPathForRow:[removedControllerIndexPath row] inSection:0] 
+									  animated:NO 
+								scrollPosition:UITableViewScrollPositionNone];
+		nextController = [webBrowsers objectAtIndex:[removedControllerIndexPath row]];
+	}
+	
+	[contentContainerController setContentController:nextController];
+}
+
 #pragma mark -
 #pragma mark Memory management
 
 - (void)dealloc {
 	[webBrowsers release];
+	[deselectionDelegate release];
     [super dealloc];
 }
 

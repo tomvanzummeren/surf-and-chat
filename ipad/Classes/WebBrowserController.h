@@ -35,4 +35,6 @@
 
 - (IBAction) showActions;
 
+- (IBAction) closeWindow;
+
 @end

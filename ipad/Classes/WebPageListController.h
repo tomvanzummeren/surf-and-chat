@@ -1,11 +1,14 @@
+#import "WebBrowserDelegate.h"
+#import "DeselectionDelegate.h"
+
 @class ContentContainerController;
 
-#import "WebBrowserDelegate.h"
-
-@interface WebPageListController : UITableViewController<WebBrowserDelegate> {
+@interface WebPageListController : UITableViewController<WebBrowserDelegate, DeselectionDelegate> {
 
 	IBOutlet ContentContainerController *contentContainerController;
-
+	
+	IBOutlet id<DeselectionDelegate> deselectionDelegate;
+	
 @private
 	NSMutableArray *webBrowsers;
 }

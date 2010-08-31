@@ -59,7 +59,7 @@
 					<object class="IBUITextField" id="76665315">
 						<reference key="NSNextResponder" ref="426616474"/>
 						<int key="NSvFlags">290</int>
-						<string key="NSFrame">{{196, 7}, {562, 31}}</string>
+						<string key="NSFrame">{{196, 7}, {515, 31}}</string>
 						<reference key="NSSuperview" ref="426616474"/>
 						<reference key="IBUIBackgroundColor" ref="753837038"/>
 						<bool key="IBUIOpaque">NO</bool>
@@ -217,6 +217,25 @@
 							<string key="NSResourceName">action-button.png</string>
 						</object>
 					</object>
+					<object class="IBUIButton" id="298648937">
+						<reference key="NSNextResponder" ref="426616474"/>
+						<int key="NSvFlags">289</int>
+						<string key="NSFrame">{{721, 4}, {35, 37}}</string>
+						<reference key="NSSuperview" ref="426616474"/>
+						<bool key="IBUIOpaque">NO</bool>
+						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
+						<int key="IBUIContentHorizontalAlignment">0</int>
+						<int key="IBUIContentVerticalAlignment">0</int>
+						<reference key="IBUIFont" ref="62649451"/>
+						<int key="IBUIButtonType">1</int>
+						<string key="IBUINormalTitle">X</string>
+						<reference key="IBUIHighlightedTitleColor" ref="1044835098"/>
+						<object class="NSColor" key="IBUINormalTitleColor">
+							<int key="NSColorSpace">1</int>
+							<bytes key="NSRGB">MC4xOTYwNzg0MzQ2IDAuMzA5ODAzOTMyOSAwLjUyMTU2ODY1NgA</bytes>
+						</object>
+						<reference key="IBUINormalTitleShadowColor" ref="840279426"/>
+					</object>
 				</object>
 				<string key="NSFrameSize">{768, 1004}</string>
 				<reference key="NSSuperview"/>
@@ -364,6 +383,15 @@
 					</object>
 					<int key="connectionID">43</int>
 				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchEventConnection" key="connection">
+						<string key="label">closeWindow</string>
+						<reference key="source" ref="298648937"/>
+						<reference key="destination" ref="841351856"/>
+						<int key="IBEventType">7</int>
+					</object>
+					<int key="connectionID">45</int>
+				</object>
 			</object>
 			<object class="IBMutableOrderedSet" key="objectRecords">
 				<object class="NSArray" key="orderedObjects">
@@ -397,6 +425,7 @@
 							<reference ref="937090621"/>
 							<reference ref="509941234"/>
 							<reference ref="453962227"/>
+							<reference ref="298648937"/>
 						</object>
 						<reference key="parent" ref="0"/>
 					</object>
@@ -440,6 +469,11 @@
 						<reference key="parent" ref="426616474"/>
 						<string key="objectName">Action Button</string>
 					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">44</int>
+						<reference key="object" ref="298648937"/>
+						<reference key="parent" ref="426616474"/>
+					</object>
 				</object>
 			</object>
 			<object class="NSMutableDictionary" key="flattenedProperties">
@@ -455,6 +489,7 @@
 					<string>26.IBPluginDependency</string>
 					<string>27.IBPluginDependency</string>
 					<string>35.IBPluginDependency</string>
+					<string>44.IBPluginDependency</string>
 					<string>5.IBPluginDependency</string>
 					<string>6.IBPluginDependency</string>
 				</object>
@@ -463,6 +498,7 @@
 					<string>WebBrowserController</string>
 					<string>UIResponder</string>
 					<string>{{632, 335}, {768, 1004}}</string>
+					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
@@ -489,7 +525,7 @@
 				</object>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">43</int>
+			<int key="maxID">45</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -512,14 +548,35 @@
 					<string key="className">WebBrowserController</string>
 					<string key="superclassName">UIViewController</string>
 					<object class="NSMutableDictionary" key="actions">
-						<string key="NS.key.0">showActions</string>
-						<string key="NS.object.0">id</string>
+						<bool key="EncodedWithXMLCoder">YES</bool>
+						<object class="NSArray" key="dict.sortedKeys">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>closeWindow</string>
+							<string>showActions</string>
+						</object>
+						<object class="NSMutableArray" key="dict.values">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>id</string>
+							<string>id</string>
+						</object>
 					</object>
 					<object class="NSMutableDictionary" key="actionInfosByName">
-						<string key="NS.key.0">showActions</string>
-						<object class="IBActionInfo" key="NS.object.0">
-							<string key="name">showActions</string>
-							<string key="candidateClassName">id</string>
+						<bool key="EncodedWithXMLCoder">YES</bool>
+						<object class="NSArray" key="dict.sortedKeys">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<string>closeWindow</string>
+							<string>showActions</string>
+						</object>
+						<object class="NSMutableArray" key="dict.values">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<object class="IBActionInfo">
+								<string key="name">closeWindow</string>
+								<string key="candidateClassName">id</string>
+							</object>
+							<object class="IBActionInfo">
+								<string key="name">showActions</string>
+								<string key="candidateClassName">id</string>
+							</object>
 						</object>
 					</object>
 					<object class="NSMutableDictionary" key="outlets">
