@@ -53,6 +53,7 @@
 		DB0E9F901173CD790004333A /* new-webpage-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DB0E9F8F1173CD790004333A /* new-webpage-icon.png */; };
 		DB0E9FAB1174D62C0004333A /* selected-webpage-left.png in Resources */ = {isa = PBXBuildFile; fileRef = DB0E9FAA1174D62C0004333A /* selected-webpage-left.png */; };
 		DB0E9FE31174F7C00004333A /* webpages-bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB0E9FE21174F7C00004333A /* webpages-bg.jpg */; };
+		DB167A241233A0AF008D0DF2 /* ContactListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB167A231233A0AF008D0DF2 /* ContactListView.xib */; };
 		DB16CDED120C533A00DE777B /* action-button.png in Resources */ = {isa = PBXBuildFile; fileRef = DB16CDEC120C533A00DE777B /* action-button.png */; };
 		DB1A124C1150339D009D2B7A /* ContentContainerController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB1A124A1150339D009D2B7A /* ContentContainerController.m */; };
 		DB1A127811503ACD009D2B7A /* ContentContainerController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB1A127711503ACD009D2B7A /* ContentContainerController.xib */; };
@@ -201,6 +202,7 @@
 		DB0E9F8F1173CD790004333A /* new-webpage-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "new-webpage-icon.png"; sourceTree = "<group>"; };
 		DB0E9FAA1174D62C0004333A /* selected-webpage-left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "selected-webpage-left.png"; sourceTree = "<group>"; };
 		DB0E9FE21174F7C00004333A /* webpages-bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "webpages-bg.jpg"; sourceTree = "<group>"; };
+		DB167A231233A0AF008D0DF2 /* ContactListView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContactListView.xib; sourceTree = "<group>"; };
 		DB16CDEC120C533A00DE777B /* action-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "action-button.png"; sourceTree = "<group>"; };
 		DB1A12491150339D009D2B7A /* ContentContainerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentContainerController.h; sourceTree = "<group>"; };
 		DB1A124A1150339D009D2B7A /* ContentContainerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentContainerController.m; sourceTree = "<group>"; };
@@ -434,6 +436,7 @@
 				DBE24831114D0CF6008A2FC6 /* ContactListControllerDelegate.h */,
 				C200E9B511232222001A33D3 /* ContactListController.h */,
 				C200E9B611232222001A33D3 /* ContactListController.m */,
+				DB167A231233A0AF008D0DF2 /* ContactListView.xib */,
 				C25249C0112C8B760041C28C /* ContactCell.h */,
 				C25249C1112C8B760041C28C /* ContactCell.m */,
 			);
@@ -840,6 +843,7 @@
 				DB16CDED120C533A00DE777B /* action-button.png in Resources */,
 				DB69A9C4120C7BB8003EAC2A /* Default-Landscape.png in Resources */,
 				DB69A9C5120C7BB8003EAC2A /* Default-Portrait.png in Resources */,
+				DB167A241233A0AF008D0DF2 /* ContactListView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

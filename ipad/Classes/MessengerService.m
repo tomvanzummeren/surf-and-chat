@@ -201,6 +201,11 @@
 	[request perform:error];	
 }
 
+- (void) logOut:(NSError **) error {
+	HttpRequest *request = [[[HttpRequest alloc] initForPost:[NSString stringWithFormat:@"%@/api/logout", SERVER_URL] withParameters:[NSDictionary dictionary]] autorelease];
+	[request perform:error];	
+}
+
 #pragma mark -
 #pragma mark Json parsing
 

@@ -1,6 +1,7 @@
 #import "SurfAndChatAppDelegate.h"
 
 #import "FullScreenEvent.h"
+#import "LogoutEvent.h"
 #import "ContentContainerController.h"
 #import "EventDispatcher.h"
 

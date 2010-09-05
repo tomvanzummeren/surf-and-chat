@@ -8,6 +8,9 @@
 #import "ConversationListModel.h"
 #import "ReceivedMessage.h"
 #import "NibUtils.h"
+#import "ContactUpdatedEvent.h"
+#import "LogoutEvent.h"
+#import "EventDispatcher.h"
 
 @interface ConversationListController()
 - (void) activateChatDialog:(UIViewController *) chatDialogController;

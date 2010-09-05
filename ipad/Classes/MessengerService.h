@@ -23,4 +23,6 @@
 
 - (NSArray *) receiveEvents;
 
+- (void) logOut:(NSError **) error;
+
 @end

@@ -1,5 +1,12 @@
 #import "ContactListController.h"
 
+#import "MsnGroup.h"
+#import "MsnContact.h"
+#import "ContactCell.h"
+#import "ContactUpdatedEvent.h"
+#import "EventDispatcher.h"
+#import "MessengerService.h"
+
 @interface ContactListController()
 - (void) filterContactsAndGroupsOffline:(BOOL)filterOffline;
 @end
@@ -10,13 +17,13 @@
 @synthesize contactListDelegate;
 
 - (id) initWithContactList:(NSArray *) contactGroupsToSet {
-	if (self = [super initWithStyle:UITableViewStylePlain]) {
+	if (self = [super initWithNibName:@"ContactListView" bundle:nil]) {
 		[self setTitle:@"Contact List"];
 		contactGroups = contactGroupsToSet;
 		[contactGroups retain];
 		
 		eventDispatcher = [EventDispatcher sharedInstance];
-
+		
 		[self filterContactsAndGroupsOffline:NO];
 	}
 	return self;
@@ -49,8 +56,8 @@
 		}
 		
 		MsnGroup *filteredGroup = [[[MsnGroup alloc] initWithIdentifier:[group identifier] 
-																					  name:[group name] 
-																			 andContacts:filteredContacts] autorelease];
+																   name:[group name] 
+															andContacts:filteredContacts] autorelease];
 		[mutableContactGroups addObject:filteredGroup];
 	}
 	[filteredContactGroups release];
@@ -87,6 +94,11 @@
 - (IBAction) toggleHideOfflineContacts:(UISwitch *) sender {
 	[self filterContactsAndGroupsOffline:NO];
 	[[self tableView] reloadData];
+}
+
+- (IBAction) logOut {
+	NSError *error = nil;
+	[messengerService logOut:&error];
 }
 
 #pragma mark -

@@ -1,11 +1,12 @@
-#import "MsnGroup.h"
-#import "MsnContact.h"
-#import "ContactCell.h"
-#import "ContactUpdatedEvent.h"
-#import "EventDispatcher.h"
+#import "BaseTableViewController.h"
 #import "ContactListControllerDelegate.h"
 
-@interface ContactListController : UITableViewController {
+@class EventDispatcher;
+@class MessengerService;
+
+@interface ContactListController : BaseTableViewController {
+	
+	IBOutlet MessengerService *messengerService;
 
 	id<ContactListControllerDelegate> contactListDelegate;
 	
@@ -23,5 +24,7 @@
 - (id) initWithContactList:(NSArray *) contactGroups;
 
 - (IBAction) toggleHideOfflineContacts:(UISwitch *) sender;
+
+- (IBAction) logOut;
 
 @end

@@ -1,4 +1,5 @@
 #import "LoginFormController.h"
+#import "LogoutEvent.h"
 
 @interface LoginFormController()
 - (void) shake;
@@ -15,6 +16,7 @@
 		eventDispatcher = [EventDispatcher sharedInstance];
 		[eventDispatcher registerTarget:self action:@selector(loginFailed:) forEvent:[LoginFailedEvent class]];
 		[eventDispatcher registerTarget:self action:@selector(initializeContactList:) forEvent:[ContactListEvent class]];
+		[eventDispatcher registerTarget:self action:@selector(loggedOut:) forEvent:[LogoutEvent class]];
     }
     return self;
 }
@@ -37,6 +39,13 @@
 		return;
 	}
 	[loginDelegate loginToMsnWithEmail:email andPassword:password];
+}
+
+- (void) loggedOut:(LogoutEvent *) event {
+	[eventDispatcher stopDispatching];
+
+	[popoverController setPopoverContentSize:CGSizeMake(445, 171) animated:YES];
+	[popoverController setContentViewController:self];
 }
 
 #pragma mark -
